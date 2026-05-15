@@ -1,0 +1,1 @@
+node -r ts-node/register/transpile-only src/fetch_list.ts
