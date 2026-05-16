@@ -1,10 +1,5 @@
 import { Browser, Page } from "puppeteer";
 import puppeteer from "puppeteer-extra";
-import path from 'path';
-import crypto from "crypto";
-import Database from "better-sqlite3";
-
-const md5 = (text: string) => crypto.createHash("md5").update(text).digest("hex");
 
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
@@ -66,7 +61,7 @@ const getArticleDetail = async (page: Page): Promise<{html: string, imageUrls: s
             }
         }
         const elem = article.parentNode?.parentNode as HTMLElement;
-        const html = elem?.innerHTML;
+        const html = elem?.innerHTML ?? '';
         return { html, imageUrls };
     });
 
@@ -82,16 +77,11 @@ const getArticleDetail = async (page: Page): Promise<{html: string, imageUrls: s
 // --- Persistent worker state ---
 let browser: Browser | null = null;
 let page: Page | null = null;
-let db: InstanceType<typeof Database> | null = null;
-let insertHtmlStmt: Database.Statement | null = null;
-let insertImageStmt: Database.Statement | null = null;
-let insertImageMany: ((imageData: {key: string, url: string}[]) => void) | null = null;
 let initialized = false;
 let processing = false;
 const taskQueue: Array<{ id: number; url: string }> = [];
 
 const cleanup = async () => {
-    if (db) { db.close(); db = null; }
     if (browser) { await browser.close(); browser = null; }
     page = null;
     process.exit(0);
@@ -138,43 +128,10 @@ const initPuppeteer = async (profileDir: string) => {
     await page.setDefaultNavigationTimeout(0);
 };
 
-const initDb = () => {
-    const dbPath = path.resolve(__dirname, '../../medium_consumer.db');
-    db = new Database(dbPath);
-    db.pragma('journal_mode = WAL');
-    db.pragma('synchronous = NORMAL');
-    db.pragma('cache_size = 1000');
-
-    insertHtmlStmt = db.prepare(`UPDATE articles SET html=?, hsize=? WHERE id = ?`);
-    insertImageStmt = db.prepare(`INSERT OR IGNORE INTO images (key, url) VALUES (?, ?)`);
-    insertImageMany = db.transaction((imageData: {key: string, url: string}[]) => {
-        for (const {key, url} of imageData) {
-            insertImageStmt!.run(key, url);
-        }
-    });
-};
-
 const runTask = async (task: { id: number; url: string }) => {
-    const { id, url } = task;
-    if (!page || !insertHtmlStmt || !insertImageMany) {
-        process.send!({ error: true, id, reason: "Worker not initialized" });
-        return;
-    }
-
-    try {
-        await openUrl(page, url);
-        const article = await getArticleDetail(page);
-        if (article) {
-            insertImageMany(article.imageUrls.map(url => ({key: md5(url), url})));
-            insertHtmlStmt.run(article.html, article.html.length, id);
-        } else {
-            insertHtmlStmt.run('', 0, id);
-        }
-        process.send!({ done: true, id });
-    } catch (err) {
-        console.error(`Error processing article #${id}:`, err);
-        process.send!({ error: true, id });
-    }
+    if (!page) throw new Error("Worker not initialized");
+    await openUrl(page, task.url);
+    return await getArticleDetail(page);
 };
 
 const processQueue = async () => {
@@ -183,10 +140,11 @@ const processQueue = async () => {
     while (taskQueue.length > 0) {
         const task = taskQueue.shift()!;
         try {
-            await runTask(task);
+            const article = await runTask(task);
+            process.send!({ type: 'result', id: task.id, html: article?.html ?? '', imageUrls: article?.imageUrls ?? [] });
         } catch (err) {
             console.error(`Unhandled error in task #${task.id}:`, err);
-            process.send!({ error: true, id: task.id });
+            process.send!({ type: 'error', id: task.id });
         }
     }
     processing = false;
@@ -198,12 +156,11 @@ const initialize = async (profileDir: string) => {
         await openUrl(page!, "https://medium.com/");
         await wait(30000);
         console.log(`waiting for login...`);
-        initDb();
         initialized = true;
         processQueue();
     } catch (err) {
         console.error("Worker initialization failed:", err);
-        process.send!({ error: true, id: -1 });
+        process.send!({ type: 'error', id: -1 });
         await cleanup();
     }
 };

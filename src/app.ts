@@ -1,87 +1,12 @@
-﻿import path from "path";
-import Database from "better-sqlite3";
-import { ChildProcess, fork } from "child_process";
+﻿import { ChildProcess, fork } from "child_process";
+import { MultiBar } from "./progress";
+import { DatabaseManager } from "./database";
+import path from "path";
 
 const wait = (mill: number) => new Promise(resolve => setTimeout(resolve, Math.max(mill, 1000)));
 
-// ─── Rich inline progress bar (no external deps) ──────────────────────────────
-class MultiBar {
-    private bars: SingleBar[] = [];
-    private timer: NodeJS.Timeout | null = null;
-
-    create(total: number, initial = 0, payload: Record<string, any> = {}): SingleBar {
-        const bar = new SingleBar(this, total, initial, payload);
-        this.bars.push(bar);
-        return bar;
-    }
-
-    private draw() {
-        const termWidth = process.stdout.columns || 80;
-        const lines = this.bars.map(b => b.render(termWidth));
-        // Move cursor up one line per existing bar, then rewrite
-        process.stdout.write(this.bars.map(() => "\x1B[1A\x1B[2K").join("") + lines.join("\n") + "\n");
-    }
-
-    start(refreshRateMs = 250) {
-        this.timer = setInterval(() => this.draw(), refreshRateMs);
-    }
-
-    stop() {
-        if (this.timer) { clearInterval(this.timer); this.timer = null; }
-        this.draw();
-    }
-}
-
-class SingleBar {
-    public value = 0;
-    constructor(
-        private readonly container: MultiBar,
-        public readonly total: number,
-        initial: number,
-        public payload: Record<string, any>
-    ) {
-        this.value = initial;
-    }
-
-    increment(amount = 1) {
-        this.value += amount;
-    }
-
-    update(value: number) {
-        this.value = value;
-    }
-
-    render(termWidth: number): string {
-        const pct = this.total > 0 ? this.value / this.total : 0;
-        const pctStr = `${Math.floor(pct * 100)}%`.padStart(3);
-        const stats = this.formatStats();
-        const available = Math.max(0, termWidth - stats.length - 12); // 12 = brackets + padding
-        const filled = Math.floor(available * pct);
-        const empty = available - filled;
-        const bar = "█".repeat(filled) + "░".repeat(empty);
-        return `${bar} ${pctStr} ${stats}`;
-    }
-
-    private formatStats(): string {
-        const { elapsed, eta, rate } = this.payload;
-        const parts: string[] = [];
-        parts.push(`${String(this.value).padStart(String(this.total).length)}/${this.total}`);
-        if (rate != null) parts.push(`${rate.toFixed(2)} it/s`);
-        if (elapsed != null) parts.push(`${this.fmtTime(elapsed)}<${this.fmtTime(eta ?? 0)}`);
-        return `| ${parts.join(" | ")}`;
-    }
-
-    private fmtTime(seconds: number): string {
-        const h = Math.floor(seconds / 3600);
-        const m = Math.floor((seconds % 3600) / 60);
-        const s = Math.floor(seconds % 60);
-        if (h > 0) return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-        return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-    }
-}
-
 // ─── App ──────────────────────────────────────────────────────────────────────
-const NUM_WORKERS = 10;
+const NUM_WORKERS = 4;
 
 interface WorkerState {
     process: ChildProcess;
@@ -92,50 +17,15 @@ interface WorkerState {
 const main = async () => {
     const startTime = Date.now();
 
-    const dbPath = path.resolve(__dirname, "../../medium_consumer.db");
-    const db = new Database(dbPath);
+    const db = new DatabaseManager();
 
-    db.pragma("journal_mode = WAL");
-    db.pragma("synchronous = NORMAL");
-    db.pragma("cache_size = 1000");
-
-    db.exec(`
-        CREATE TABLE IF NOT EXISTS articles (
-            id INTEGER PRIMARY KEY,
-            title TEXT,
-            html TEXT,
-            url TEXT,
-            tags TEXT,
-            author TEXT,
-            date TEXT,
-            en TEXT,
-            base TEXT,
-            zh TEXT,
-            ko TEXT,
-            ru TEXT,
-            ja TEXT,
-            hi TEXT,
-            ar TEXT
-        )
-    `);
-
-    db.exec(`
-        CREATE TABLE IF NOT EXISTS images (
-            key TEXT PRIMARY KEY,
-            url TEXT,
-            data BLOB
-        )
-    `);
-
-    const stats = db.prepare(`SELECT COUNT(*) AS total FROM articles WHERE html IS NULL`).get() as { total: number } | undefined;
-    const totalToProcess = (stats?.total ?? 0);
-    const alreadyDone = 0;
+    const totalToProcess = db.getUnprocessedCount();
 
     const multibar = new MultiBar();
-    const bar = multibar.create(totalToProcess, alreadyDone, { elapsed: 0, eta: 0, rate: 0 });
+    const bar = multibar.create(totalToProcess, 0, { elapsed: 0, eta: 0, rate: 0 });
 
     // Reserve terminal space for the bar
-    for (let i = 0; i < 1; i++) process.stdout.write("\n");
+    process.stdout.write("\n");
     multibar.start(250);
 
     const workers: WorkerState[] = [];
@@ -144,18 +34,13 @@ const main = async () => {
     let workerIdCounter = 0;
     let isShuttingDown = false;
     let idlePollTimer: NodeJS.Timeout | null = null;
-    let processedSinceStart = alreadyDone;
+    let processedSinceStart = 0;
+    let lastUpdateTime = "";
 
-    const getArticleStmt = db.prepare(
-        `SELECT id, url FROM articles WHERE id > ? AND html IS NULL ORDER BY id LIMIT 1`
-    );
+    const fmtTime = (d = new Date()) => `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}:${String(d.getSeconds()).padStart(2,"0")}`;
 
     const claimNextArticle = (): { id: number; url: string } | undefined => {
-        let row = getArticleStmt.get(lastId) as { id: number; url: string } | undefined;
-        if (!row && lastId !== 0) {
-            row = getArticleStmt.get(0) as { id: number; url: string } | undefined;
-            if (row) lastId = 0;
-        }
+        const row = db.getNextArticle(lastId);
         if (row) {
             lastId = row.id;
         }
@@ -168,7 +53,7 @@ const main = async () => {
         const remainingItems = totalToProcess - processedSinceStart;
         const eta = rate > 0 ? remainingItems / rate : 0;
         bar.update(processedSinceStart);
-        bar.payload = { elapsed: elapsedSec, eta, rate };
+        bar.payload = { elapsed: elapsedSec, eta, rate, lastUpdate: lastUpdateTime, workers: activeTasks };
     };
 
     const dispatch = () => {
@@ -199,17 +84,36 @@ const main = async () => {
     };
 
     const onWorkerMessage = (workerState: WorkerState, msg: any) => {
-        if (msg?.done || msg?.error) {
-            if (workerState.busy) {
-                activeTasks--;
-                workerState.busy = false;
+        let completed = false;
+
+        if (msg?.type === "result") {
+            try {
+                db.updateHtml(msg.id, msg.html ?? "");
+                db.insertImages(msg.imageUrls ?? []);
+            } catch (dbErr: any) {
+                console.error(`DB write failed for #${msg.id}:`, dbErr.message || dbErr);
             }
-            if (!msg?.error) {
-                processedSinceStart++;
-                updateBar();
+            completed = true;
+        } else if (msg?.type === "error" && typeof msg.id === "number" && msg.id >= 0) {
+            try {
+                db.markArticleEmpty(msg.id);
+            } catch (dbErr: any) {
+                console.error(`DB write failed for #${msg.id}:`, dbErr.message || dbErr);
             }
-            dispatch();
+            completed = true;
         }
+
+        if (completed) {
+            processedSinceStart++;
+            lastUpdateTime = fmtTime();
+            updateBar();
+        }
+
+        if (workerState.busy) {
+            activeTasks--;
+            workerState.busy = false;
+        }
+        dispatch();
     };
 
     const onWorkerExit = (workerState: WorkerState, code: number | null, signal: string | null) => {
@@ -251,11 +155,7 @@ const main = async () => {
 
     dispatch();
 
-    const imageDownloader = fork(path.resolve(__dirname, "image_downloader.ts"), [], {
-        execArgv: ["-r", "ts-node/register/transpile-only"],
-    });
-
-    const shutdown = () => {
+    const shutdown = async () => {
         if (isShuttingDown) return;
         isShuttingDown = true;
 
@@ -269,13 +169,12 @@ const main = async () => {
         for (const w of workers) {
             w.process.kill("SIGTERM");
         }
-        imageDownloader.kill("SIGTERM");
 
         setTimeout(() => {
             for (const w of workers) {
                 w.process.kill("SIGKILL");
             }
-            imageDownloader.kill("SIGKILL");
+            db.close();
             process.exit(1);
         }, 10000).unref();
     };
