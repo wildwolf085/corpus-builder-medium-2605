@@ -26,84 +26,103 @@ interface ExtractedArticle {
 }
 
 const extractArticlesFromPage = async (checked: number): Promise<ExtractedArticle[]> => {
-    const articles: ExtractedArticle[] = [];
-    const seenUrls = new Set<string>();
+    // ── Phase 1: scroll until page is fully loaded ────────────────────────────
+    const scrollCount = checked === 0 ? 50 : 5;
+    let stagnantScrolls = 0;
+    const maxStagnantScrolls = 6;
 
-    let lastScrollHeight = 0;
-    let scrollAttempts = 0;
-    const maxScrollAttempts = checked === 0 ? 50 : 2;
-    const targetMax = checked === 0 ? 1000 : 50;
+    for (let i = 0; i < scrollCount; i++) {
+        const prevHeight = await page!.evaluate(() => document.documentElement.scrollHeight);
+        const prevArticles = await page!.evaluate(() => document.querySelectorAll("article").length);
 
-    while (scrollAttempts < maxScrollAttempts) {
-        const newArticles = await page!.evaluate(() => {
-            const results: Array<{ title: string; url: string }> = [];
-            const seen = new Set<string>();
+        await page!.evaluate(() => {
+            window.scrollBy(0, Math.max(window.innerHeight - 100, 400));
+        });
+        await wait(3000);
 
-            const articleBlocks = Array.from(document.querySelectorAll("article"));
-            for (const block of articleBlocks) {
-                const h2 = block.querySelector("h2");
-                if (!h2) continue;
-
-                let link: Element | null = null;
-
-                // Prefer link with source=user_profile_page
-                const allLinks = Array.from(block.querySelectorAll('a[href^="/"]'));
-                for (const a of allLinks) {
-                    const href = a.getAttribute("href") || "";
-                    if (href.includes("source=user_profile_page")) {
-                        link = a;
-                        break;
-                    }
-                }
-
-                // Fallback: any data-discover link
-                if (!link) {
-                    link = block.querySelector('a[data-discover="true"]');
-                }
-
-                if (!link) continue;
-
-                const href = link.getAttribute("href") || "";
-                const fullUrl = new URL(href, window.location.href).href;
-                const baseUrlPath = fullUrl.split("?")[0];
-
-                let cleanTitle = h2.textContent || "";
-                cleanTitle = cleanTitle.replace(/\s+/g, " ").trim();
-                if (!cleanTitle) continue;
-
-                if (!seen.has(baseUrlPath)) {
-                    seen.add(baseUrlPath);
-                    results.push({ title: cleanTitle, url: fullUrl });
+        // Click any "Show more" / "Load more" if present
+        const clicked = await page!.evaluate(() => {
+            const btns = Array.from(document.querySelectorAll("button"));
+            for (const b of btns) {
+                const text = (b.textContent || "").toLowerCase();
+                if (text.includes("show more") || text.includes("load more") || text.includes("see more")) {
+                    (b as HTMLButtonElement).click();
+                    return true;
                 }
             }
-            return results;
+            return false;
         });
+        if (clicked) await wait(3000);
 
-        for (const art of newArticles) {
-            if (seenUrls.has(art.url)) continue;
-            seenUrls.add(art.url);
+        const newHeight = await page!.evaluate(() => document.documentElement.scrollHeight);
+        const newArticles = await page!.evaluate(() => document.querySelectorAll("article").length);
 
-            const id = getMediumId(art.url);
-            if (!id) continue;
-
-            articles.push({ id, title: art.title, url: art.url });
+        if (newHeight === prevHeight && newArticles === prevArticles) {
+            stagnantScrolls++;
+            if (stagnantScrolls >= maxStagnantScrolls) break;
+        } else {
+            stagnantScrolls = 0;
         }
-
-        // Stop conditions
-        if (articles.length >= targetMax) break;
-
-        const scrollHeight = await page!.evaluate(() => document.documentElement.scrollHeight);
-        if (scrollHeight === lastScrollHeight && scrollAttempts > 3) {
-            break;
-        }
-        lastScrollHeight = scrollHeight;
-
-        await page!.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-        await wait(2000);
-        scrollAttempts++;
     }
 
-    return articles;
+    // ── Phase 2: extract everything in one shot ──────────────────────────────
+    const articles = await page!.evaluate(() => {
+        const results: Array<{ title: string; url: string }> = [];
+        const seen = new Set<string>();
+
+        const isArticleLink = (href: string): boolean => {
+            if (!href) return false;
+            try {
+                const url = new URL(href, window.location.href);
+                const path = url.pathname;
+                return /-[0-9a-f]{12,}$/i.test(path) || /\/p\//i.test(path);
+            } catch {
+                return false;
+            }
+        };
+
+        for (const block of Array.from(document.querySelectorAll("article"))) {
+            const h2 = block.querySelector("h2");
+            if (!h2) continue;
+
+            const title = (h2.textContent || "").replace(/\s+/g, " ").trim();
+            if (!title) continue;
+
+            const anchors = Array.from(block.querySelectorAll('a[href]')) as HTMLAnchorElement[];
+            let link = h2.closest('a[href]') as HTMLAnchorElement | null;
+
+            if (!link) {
+                link = anchors.find(a => isArticleLink(a.getAttribute("href") || "")) || null;
+            }
+            if (!link) {
+                link = anchors.find(a => a.getAttribute("href")?.startsWith("/") || a.getAttribute("href")?.includes("medium.com")) || null;
+            }
+            if (!link) continue;
+
+            const href = link.getAttribute("href") || "";
+            const fullUrl = new URL(href, window.location.href).href;
+            const base = fullUrl.split("?")[0];
+
+            if (!seen.has(base)) {
+                seen.add(base);
+                results.push({ title, url: fullUrl });
+            }
+        }
+        return results;
+    });
+
+    const extracted: ExtractedArticle[] = [];
+    const seenUrls = new Set<string>();
+
+    for (const art of articles) {
+        if (seenUrls.has(art.url)) continue;
+        seenUrls.add(art.url);
+        const id = getMediumId(art.url);
+        if (!id) continue;
+        extracted.push({ id, title: art.title, url: art.url });
+    }
+
+    return extracted;
 };
 
 const initPuppeteer = async (profileDir: string) => {
@@ -111,8 +130,7 @@ const initPuppeteer = async (profileDir: string) => {
         protocolTimeout: 360000000,
         headless: "shell",
         args: [
-            `--window-position=100,100`,
-            `--window-size=1000,600`,
+            '--start-maximized',
             "--disable-features=site-per-process",
             "--fast-start",
             "--disable-extensions",
@@ -172,12 +190,12 @@ process.on("message", async (message: any) => {
                 const articles = await extractArticlesFromPage(checked);
                 process.send!({ type: "result", url: authorUrl, articles });
             } catch (err) {
-                console.error(`Error processing author ${authorUrl}:`, err);
+                // console.error(`Error processing author ${authorUrl}:`, err);
                 process.send!({ type: "error", url: authorUrl, reason: String(err) });
             }
         }
     } catch (err) {
-        console.error("Worker fatal:", err);
+        // console.error("Worker fatal:", err);
         process.send!({ type: "error", reason: String(err) });
         await cleanup();
     }

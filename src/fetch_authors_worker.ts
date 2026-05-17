@@ -143,12 +143,12 @@ process.on("message", async (message: any) => {
                 const authors = await extractAuthorsFromPage(topic, maxAuthors);
                 process.send!({ type: "result", slug, authors });
             } catch (err) {
-                console.error(`failed to scrape topic ${slug}:`, err);
+                // console.error(`failed to scrape topic ${slug}:`, err);
                 process.send!({ type: "error", slug, reason: String(err) });
             }
         }
     } catch (err) {
-        console.error("Worker fatal:", err);
+        // console.error("Worker fatal:", err);
         process.send!({ type: "error", reason: String(err) });
         await cleanup();
     }

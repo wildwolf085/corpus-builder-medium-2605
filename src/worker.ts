@@ -143,7 +143,7 @@ const processQueue = async () => {
             const article = await runTask(task);
             process.send!({ type: 'result', id: task.id, html: article?.html ?? '', imageUrls: article?.imageUrls ?? [] });
         } catch (err) {
-            console.error(`Unhandled error in task #${task.id}:`, err);
+            // console.error(`Unhandled error in task #${task.id}:`, err);
             process.send!({ type: 'error', id: task.id });
         }
     }
@@ -159,7 +159,7 @@ const initialize = async (profileDir: string) => {
         initialized = true;
         processQueue();
     } catch (err) {
-        console.error("Worker initialization failed:", err);
+        // console.error("Worker initialization failed:", err);
         process.send!({ type: 'error', id: -1 });
         await cleanup();
     }

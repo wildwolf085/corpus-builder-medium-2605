@@ -133,7 +133,7 @@ const main = async () => {
 
     const spawnWorker = () => {
         const index = workerIdCounter++;
-        const profileDir = path.resolve(__dirname, `../user-${index}`);
+        const profileDir = path.resolve(__dirname, `../profiles/user-${index}`);
         const child = fork(path.resolve(__dirname, "worker.ts"), [], {
             execArgv: ["-r", "ts-node/register/transpile-only"],
         });
