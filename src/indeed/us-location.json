@@ -1,9 +1,5 @@
 [
     {
-        "name": "United States",
-        "link": "/companies/best-companies"
-    },
-    {
         "name": "Alabama",
         "count": 48083,
         "link": "/companies/best-companies-in-Alabama"
