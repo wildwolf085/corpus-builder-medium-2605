@@ -1,6 +1,6 @@
 import path from "path";
 import { Worker } from "worker_threads";
-import { MultiBar } from "./progress";
+import { MultiBar } from "../progress";
 import { DatabaseManager } from "./database";
 
 const db = new DatabaseManager();

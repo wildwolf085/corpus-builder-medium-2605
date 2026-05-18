@@ -1,1 +1,0 @@
-node -r ts-node/register/transpile-only src/fetch_page.ts

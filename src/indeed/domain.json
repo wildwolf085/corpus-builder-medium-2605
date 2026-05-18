@@ -1,0 +1,374 @@
+[
+  {
+    "country_code": "ar",
+    "language_code": "es",
+    "country": "Argentina",
+    "url": "https://ar.indeed.com?hl=es&co=ar&countrySelector=1"
+  },
+  {
+    "country_code": "au",
+    "language_code": "en",
+    "country": "Australia",
+    "url": "https://au.indeed.com?hl=en&co=au&countrySelector=1"
+  },
+  {
+    "country_code": "at",
+    "language_code": "de",
+    "country": "Austria",
+    "url": "https://at.indeed.com?hl=de&co=at&countrySelector=1"
+  },
+  {
+    "country_code": "bh",
+    "language_code": "en",
+    "country": "Bahrain",
+    "url": "https://bh.indeed.com?hl=en&co=bh&countrySelector=1"
+  },
+  {
+    "country_code": "be",
+    "language_code": "fr",
+    "country": "Belgium",
+    "url": "https://be.indeed.com?hl=fr&co=be&countrySelector=1"
+  },
+  {
+    "country_code": "br",
+    "language_code": "pt",
+    "country": "Brazil",
+    "url": "https://br.indeed.com?hl=pt&co=br&countrySelector=1"
+  },
+  {
+    "country_code": "ca",
+    "language_code": "en",
+    "country": "Canada",
+    "url": "https://ca.indeed.com?hl=en&co=ca&countrySelector=1"
+  },
+  {
+    "country_code": "cl",
+    "language_code": "es",
+    "country": "Chile",
+    "url": "https://cl.indeed.com?hl=es&co=cl&countrySelector=1"
+  },
+  {
+    "country_code": "cn",
+    "language_code": "zh",
+    "country": "China",
+    "url": "https://cn.indeed.com?hl=zh&co=cn&countrySelector=1"
+  },
+  {
+    "country_code": "co",
+    "language_code": "es",
+    "country": "Colombia",
+    "url": "https://co.indeed.com?hl=es&co=co&countrySelector=1"
+  },
+  {
+    "country_code": "cr",
+    "language_code": "es",
+    "country": "Costa Rica",
+    "url": "https://cr.indeed.com?hl=es&co=cr&countrySelector=1"
+  },
+  {
+    "country_code": "cz",
+    "language_code": "cs",
+    "country": "Czech Republic",
+    "url": "https://cz.indeed.com?hl=cs&co=cz&countrySelector=1"
+  },
+  {
+    "country_code": "dk",
+    "language_code": "da",
+    "country": "Denmark",
+    "url": "https://dk.indeed.com?hl=da&co=dk&countrySelector=1"
+  },
+  {
+    "country_code": "ec",
+    "language_code": "es",
+    "country": "Ecuador",
+    "url": "https://ec.indeed.com?hl=es&co=ec&countrySelector=1"
+  },
+  {
+    "country_code": "eg",
+    "language_code": "en",
+    "country": "Egypt",
+    "url": "https://eg.indeed.com?hl=en&co=eg&countrySelector=1"
+  },
+  {
+    "country_code": "fi",
+    "language_code": "fi",
+    "country": "Finland",
+    "url": "https://fi.indeed.com?hl=fi&co=fi&countrySelector=1"
+  },
+  {
+    "country_code": "fr",
+    "language_code": "fr",
+    "country": "France",
+    "url": "https://fr.indeed.com?hl=fr&co=fr&countrySelector=1"
+  },
+  {
+    "country_code": "de",
+    "language_code": "de",
+    "country": "Germany",
+    "url": "https://de.indeed.com?hl=de&co=de&countrySelector=1"
+  },
+  {
+    "country_code": "gr",
+    "language_code": "el",
+    "country": "Greece",
+    "url": "https://gr.indeed.com?hl=el&co=gr&countrySelector=1"
+  },
+  {
+    "country_code": "hk",
+    "language_code": "en",
+    "country": "Hong Kong",
+    "url": "https://hk.indeed.com?hl=en&co=hk&countrySelector=1"
+  },
+  {
+    "country_code": "hu",
+    "language_code": "hu",
+    "country": "Hungary",
+    "url": "https://hu.indeed.com?hl=hu&co=hu&countrySelector=1"
+  },
+  {
+    "country_code": "in",
+    "language_code": "en",
+    "country": "India",
+    "url": "https://in.indeed.com?hl=en&co=in&countrySelector=1"
+  },
+  {
+    "country_code": "id",
+    "language_code": "id",
+    "country": "Indonesia",
+    "url": "https://id.indeed.com?hl=id&co=id&countrySelector=1"
+  },
+  {
+    "country_code": "ie",
+    "language_code": "en",
+    "country": "Ireland",
+    "url": "https://ie.indeed.com?hl=en&co=ie&countrySelector=1"
+  },
+  {
+    "country_code": "il",
+    "language_code": "iw",
+    "country": "Israel",
+    "url": "https://il.indeed.com?hl=iw&co=il&countrySelector=1"
+  },
+  {
+    "country_code": "it",
+    "language_code": "it",
+    "country": "Italy",
+    "url": "https://it.indeed.com?hl=it&co=it&countrySelector=1"
+  },
+  {
+    "country_code": "jp",
+    "language_code": "ja",
+    "country": "Japan",
+    "url": "https://jp.indeed.com?hl=ja&co=jp&countrySelector=1"
+  },
+  {
+    "country_code": "kw",
+    "language_code": "ar",
+    "country": "Kuwait",
+    "url": "https://kw.indeed.com?hl=ar&co=kw&countrySelector=1"
+  },
+  {
+    "country_code": "lu",
+    "language_code": "de",
+    "country": "Luxembourg",
+    "url": "https://lu.indeed.com?hl=de&co=lu&countrySelector=1"
+  },
+  {
+    "country_code": "malaysia",
+    "language_code": "en",
+    "country": "Malaysia",
+    "url": "https://malaysia.indeed.com?hl=en&co=malaysia&countrySelector=1"
+  },
+  {
+    "country_code": "mx",
+    "language_code": "es",
+    "country": "Mexico",
+    "url": "https://mx.indeed.com?hl=es&co=mx&countrySelector=1"
+  },
+  {
+    "country_code": "ma",
+    "language_code": "es",
+    "country": "Morocco",
+    "url": "https://ma.indeed.com?hl=es&co=ma&countrySelector=1"
+  },
+  {
+    "country_code": "nl",
+    "language_code": "nl",
+    "country": "Netherlands",
+    "url": "https://nl.indeed.com?hl=nl&co=nl&countrySelector=1"
+  },
+  {
+    "country_code": "nz",
+    "language_code": "en",
+    "country": "New Zealand",
+    "url": "https://nz.indeed.com?hl=en&co=nz&countrySelector=1"
+  },
+  {
+    "country_code": "ng",
+    "language_code": "en",
+    "country": "Nigeria",
+    "url": "https://ng.indeed.com?hl=en&co=ng&countrySelector=1"
+  },
+  {
+    "country_code": "no",
+    "language_code": "no",
+    "country": "Norway",
+    "url": "https://no.indeed.com?hl=no&co=no&countrySelector=1"
+  },
+  {
+    "country_code": "om",
+    "language_code": "ar",
+    "country": "Oman",
+    "url": "https://om.indeed.com?hl=ar&co=om&countrySelector=1"
+  },
+  {
+    "country_code": "pk",
+    "language_code": "en",
+    "country": "Pakistan",
+    "url": "https://pk.indeed.com?hl=en&co=pk&countrySelector=1"
+  },
+  {
+    "country_code": "pa",
+    "language_code": "es",
+    "country": "Panama",
+    "url": "https://pa.indeed.com?hl=es&co=pa&countrySelector=1"
+  },
+  {
+    "country_code": "pe",
+    "language_code": "es",
+    "country": "Peru",
+    "url": "https://pe.indeed.com?hl=es&co=pe&countrySelector=1"
+  },
+  {
+    "country_code": "ph",
+    "language_code": "en",
+    "country": "Philippines",
+    "url": "https://ph.indeed.com?hl=en&co=ph&countrySelector=1"
+  },
+  {
+    "country_code": "pl",
+    "language_code": "pl",
+    "country": "Poland",
+    "url": "https://pl.indeed.com?hl=pl&co=pl&countrySelector=1"
+  },
+  {
+    "country_code": "pt",
+    "language_code": "pt",
+    "country": "Portugal",
+    "url": "https://pt.indeed.com?hl=pt&co=pt&countrySelector=1"
+  },
+  {
+    "country_code": "qa",
+    "language_code": "ar",
+    "country": "Qatar",
+    "url": "https://qa.indeed.com?hl=ar&co=qa&countrySelector=1"
+  },
+  {
+    "country_code": "ro",
+    "language_code": "ro",
+    "country": "Romania",
+    "url": "https://ro.indeed.com?hl=ro&co=ro&countrySelector=1"
+  },
+  {
+    "country_code": "sa",
+    "language_code": "ar",
+    "country": "Saudi Arabia",
+    "url": "https://sa.indeed.com?hl=ar&co=sa&countrySelector=1"
+  },
+  {
+    "country_code": "sg",
+    "language_code": "en",
+    "country": "Singapore",
+    "url": "https://sg.indeed.com?hl=en&co=sg&countrySelector=1"
+  },
+  {
+    "country_code": "za",
+    "language_code": "en",
+    "country": "South Africa",
+    "url": "https://za.indeed.com?hl=en&co=za&countrySelector=1"
+  },
+  {
+    "country_code": "kr",
+    "language_code": "ko",
+    "country": "South Korea",
+    "url": "https://kr.indeed.com?hl=ko&co=kr&countrySelector=1"
+  },
+  {
+    "country_code": "es",
+    "language_code": "es",
+    "country": "Spain",
+    "url": "https://es.indeed.com?hl=es&co=es&countrySelector=1"
+  },
+  {
+    "country_code": "se",
+    "language_code": "sv",
+    "country": "Sweden",
+    "url": "https://se.indeed.com?hl=sv&co=se&countrySelector=1"
+  },
+  {
+    "country_code": "ch",
+    "language_code": "de",
+    "country": "Switzerland",
+    "url": "https://ch.indeed.com?hl=de&co=ch&countrySelector=1"
+  },
+  {
+    "country_code": "tw",
+    "language_code": "zh",
+    "country": "Taiwan",
+    "url": "https://tw.indeed.com?hl=zh&co=tw&countrySelector=1"
+  },
+  {
+    "country_code": "th",
+    "language_code": "en",
+    "country": "Thailand",
+    "url": "https://th.indeed.com?hl=en&co=th&countrySelector=1"
+  },
+  {
+    "country_code": "tr",
+    "language_code": "tr",
+    "country": "Turkey",
+    "url": "https://tr.indeed.com?hl=tr&co=tr&countrySelector=1"
+  },
+  {
+    "country_code": "ua",
+    "language_code": "ru",
+    "country": "Ukraine",
+    "url": "https://ua.indeed.com?hl=ru&co=ua&countrySelector=1"
+  },
+  {
+    "country_code": "ae",
+    "language_code": "ar",
+    "country": "United Arab Emirates",
+    "url": "https://ae.indeed.com?hl=ar&co=ae&countrySelector=1"
+  },
+  {
+    "country_code": "gb",
+    "language_code": "en",
+    "country": "United Kingdom",
+    "url": "https://uk.indeed.com?hl=en&co=gb&countrySelector=1"
+  },
+  {
+    "country_code": "us",
+    "language_code": "en",
+    "country": "United States",
+    "url": "https://www.indeed.com?hl=en&co=us&countrySelector=1"
+  },
+  {
+    "country_code": "uy",
+    "language_code": "es",
+    "country": "Uruguay",
+    "url": "https://uy.indeed.com?hl=es&co=uy&countrySelector=1"
+  },
+  {
+    "country_code": "ve",
+    "language_code": "es",
+    "country": "Venezuela",
+    "url": "https://ve.indeed.com?hl=es&co=ve&countrySelector=1"
+  },
+  {
+    "country_code": "vn",
+    "language_code": "en",
+    "country": "Vietnam",
+    "url": "https://vn.indeed.com?hl=en&co=vn&countrySelector=1"
+  }
+]

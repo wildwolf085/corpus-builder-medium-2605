@@ -1,8 +1,5 @@
 {
-    "workbench.editorAssociations": {
-        "*.parquet": "duckdb.dataFileViewer",
-        "*.csv": "duckdb.dataFileViewer",
-        "*.tsv": "duckdb.dataFileViewer",
-        "*.xlsx": "duckdb.dataFileViewer"
-    }
+    "git.autorefresh": false,
+    "editor.semanticHighlighting.enabled": false,
+    "continue.inlineEdit.mode": "stream"
 }

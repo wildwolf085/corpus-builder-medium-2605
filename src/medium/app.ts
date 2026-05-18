@@ -1,17 +1,22 @@
 ﻿import { ChildProcess, fork } from "child_process";
-import { MultiBar } from "./progress";
+import { MultiBar } from "../progress";
 import { DatabaseManager } from "./database";
 import path from "path";
 
 const wait = (mill: number) => new Promise(resolve => setTimeout(resolve, Math.max(mill, 1000)));
 
 // ─── App ──────────────────────────────────────────────────────────────────────
-const NUM_WORKERS = 10;
+const NUM_WORKERS = 6;
 
 interface WorkerState {
     process: ChildProcess;
     busy: boolean;
     profileDir: string;
+    assignedTask?: { id: number; url: string };
+    watchdogTimer?: NodeJS.Timeout;
+    watchdogStartedAt: number;
+    completedCount: number;
+    spawnedAt: number;
 }
 
 const main = async () => {
@@ -96,7 +101,7 @@ const main = async () => {
             completed = true;
         } else if (msg?.type === "error" && typeof msg.id === "number" && msg.id >= 0) {
             try {
-                db.markArticleEmpty(msg.id);
+                db.updateHtml(msg.id, "");
             } catch (dbErr: any) {
                 console.error(`DB write failed for #${msg.id}:`, dbErr.message || dbErr);
             }
@@ -133,7 +138,7 @@ const main = async () => {
 
     const spawnWorker = () => {
         const index = workerIdCounter++;
-        const profileDir = path.resolve(__dirname, `../profiles/user-${index}`);
+        const profileDir = path.resolve(__dirname, `../../profiles/user-${index}`);
         const child = fork(path.resolve(__dirname, "worker.ts"), [], {
             execArgv: ["-r", "ts-node/register/transpile-only"],
         });

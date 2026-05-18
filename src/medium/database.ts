@@ -12,7 +12,7 @@ interface DbStmt {
 }
 
 export class DatabaseManager {
-    private static DB_PATH = path.resolve(__dirname, "../../medium_consumer.db");
+    private static DB_PATH = path.resolve(__dirname, "../../../medium_consumer.db");
     private db: DbInstance;
 
     private updateHtmlStmt!: DbStmt;
@@ -24,6 +24,7 @@ export class DatabaseManager {
     private insertArticleStmt!: DbStmt;
     private updateAuthorCheckedStmt!: DbStmt;
     private getAuthorsToRecheckStmt!: DbStmt;
+    private updateUrlStmt!: DbStmt;
 
     private insertAuthorStmt!: DbStmt;
 
@@ -39,7 +40,6 @@ export class DatabaseManager {
         this.db.pragma("cache_size = 1000");
 
         this.initSchema();
-        this.initPreparedStatements();
     }
 
     private initSchema() {
@@ -64,9 +64,6 @@ export class DatabaseManager {
         if (hasTopic === 0) {
             this.db.exec(`ALTER TABLE authors ADD COLUMN topic TEXT`);
         }
-    }
-
-    private initPreparedStatements() {
         this.updateHtmlStmt = this.db.prepare(`UPDATE articles SET html = ?, hsize = ? WHERE id = ?`) as unknown as DbStmt;
         this.insertImageStmt = this.db.prepare(`INSERT OR IGNORE INTO images (key, url) VALUES (?, ?)`) as unknown as DbStmt;
         this.getArticleStmt = this.db.prepare(`SELECT id, url FROM articles WHERE id > ? AND html IS NULL ORDER BY id LIMIT 1`) as unknown as DbStmt;
@@ -83,6 +80,8 @@ export class DatabaseManager {
         this.updateImageStmt = this.db.prepare(`UPDATE images SET data = ? WHERE key = ?`) as unknown as DbStmt;
         this.totalCountStmt = this.db.prepare(`SELECT COUNT(*) AS c FROM images`) as unknown as DbStmt;
         this.remainingCountStmt = this.db.prepare(`SELECT COUNT(*) AS c FROM images WHERE data IS NULL`) as unknown as DbStmt;
+        this.updateUrlStmt = this.db.prepare(`UPDATE authors SET url = ?, count=?, checked = CAST(strftime('%s', 'now') AS INTEGER) WHERE url = ?`) as unknown as DbStmt;
+
     }
 
     getUnprocessedCount(): number {
@@ -128,8 +127,7 @@ export class DatabaseManager {
     updateAuthorChecked(url: string, newUrl: string, count: number): void {
         if (newUrl!==url) {
             try {
-                const updateUrlStmt = this.db.prepare(`UPDATE authors SET url = ?, count=?, checked = CAST(strftime('%s', 'now') AS INTEGER) WHERE url = ?`) as unknown as DbStmt;
-                updateUrlStmt.run(newUrl, count, url);    
+                this.updateUrlStmt.run(newUrl, count, url);    
             } catch (error) {
                 
             }

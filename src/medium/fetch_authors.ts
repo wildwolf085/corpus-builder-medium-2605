@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs";
 import { ChildProcess, fork } from "child_process";
-import { MultiBar } from "./progress";
+import { MultiBar } from "../progress";
 import { DatabaseManager } from "./database";
 
 const NUM_WORKERS = 4;
@@ -98,7 +98,7 @@ const main = async () => {
 
     const spawnWorker = () => {
         if (isShuttingDown) return;
-        const profileDir = path.resolve(__dirname, `../profiles/user-authors-${workerIdCounter++}`);
+        const profileDir = path.resolve(__dirname, `../../profiles/user-authors-${workerIdCounter++}`);
         const child = fork(path.resolve(__dirname, "fetch_authors_worker.ts"), [], {
             execArgv: ["-r", "ts-node/register/transpile-only"],
         });

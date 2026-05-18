@@ -1,0 +1,1686 @@
+
+            {
+                "requestContext": {
+                    "country": "US",
+                    "language": "en",
+                    "locale": "en-US",
+                    "domain": null,
+                    "mobileUserAgent": false,
+                    "rtl": false,
+                    "tk": "1josiq830gbnv9kv",
+                    "loggedIn": false,
+                    "ctk": "1jokocsb824sh000",
+                    "url": "",
+                    "stagingLevel": "prod",
+                    "reactProctor": {
+                        "tests": {
+                            "acme_salaries_show_estimated_salary_tst": -1,
+                            "acme_unverified_strings": 1,
+                            "jsi_cmp_404_page_tst": -1,
+                            "jsi_follow_button_tst": -1,
+                            "jsi_industry_top_company_tst": -1,
+                            "jsi_jobs_service_migration_tst": -1,
+                            "jsi_short_funnel_redirect_tst": 1,
+                            "jsi_show_login_gate_tst": 1,
+                            "jsi_workwellbeing_tst": -1
+                        }
+                    }
+                },
+                "nextPageLink": "/companies/best-companies?after=OQ%3D%3D",
+                "allIndustries": [
+                    {
+                        "name": "All",
+                        "link": "/companies/best-companies"
+                    },
+                    {
+                        "name": "Accounting & Tax",
+                        "suid": "PFYH6",
+                        "link": "/companies/best-Accounting-&-Tax-companies"
+                    },
+                    {
+                        "name": "Advertising & Public Relations",
+                        "suid": "8NQ38",
+                        "link": "/companies/best-Advertising-&-Public-Relations-companies"
+                    },
+                    {
+                        "name": "Aerospace & Defense",
+                        "suid": "HV5U6",
+                        "link": "/companies/best-Aerospace-&-Defense-companies"
+                    },
+                    {
+                        "name": "Agriculture",
+                        "suid": "SVBZF",
+                        "link": "/companies/best-Agriculture-companies"
+                    },
+                    {
+                        "name": "Airlines, Airports & Air Transportation",
+                        "suid": "HG3CQ",
+                        "link": "/companies/best-Airlines,-Airports-&-Air-Transportation-companies"
+                    },
+                    {
+                        "name": "Ambulance & Medical Transportation",
+                        "suid": "2KB47",
+                        "link": "/companies/best-Ambulance-&-Medical-Transportation-companies"
+                    },
+                    {
+                        "name": "Animal Production",
+                        "suid": "PQ59U",
+                        "link": "/companies/best-Animal-Production-companies"
+                    },
+                    {
+                        "name": "Architectural & Engineering Services",
+                        "suid": "HTPJC",
+                        "link": "/companies/best-Architectural-&-Engineering-Services-companies"
+                    },
+                    {
+                        "name": "Arts, Entertainment & Recreation",
+                        "suid": "N322U",
+                        "link": "/companies/best-Arts,-Entertainment-&-Recreation-companies"
+                    },
+                    {
+                        "name": "Auctions & Galleries",
+                        "suid": "X8TU5",
+                        "link": "/companies/best-Auctions-&-Galleries-companies"
+                    },
+                    {
+                        "name": "Automotive Parts & Accessories Stores",
+                        "suid": "JXSBJ",
+                        "link": "/companies/best-Automotive-Parts-&-Accessories-Stores-companies"
+                    },
+                    {"name": "Banking & Lending",
+                    "suid": "V7NTF",
+                    "link": "/companies/best-Banking-&-Lending-companies"
+                },
+                {
+                    "name": "Bars & Nightclubs",
+                    "suid": "TP6SH",
+                    "link": "/companies/best-Bars-&-Nightclubs-companies"
+                },
+                {
+                    "name": "Beauty & Personal Accessories Stores",
+                    "suid": "2TGAN",
+                    "link": "/companies/best-Beauty-&-Personal-Accessories-Stores-companies"
+                },
+                {
+                    "name": "Beauty & Wellness",
+                    "suid": "UK32J",
+                    "link": "/companies/best-Beauty-&-Wellness-companies"
+                },
+                {
+                    "name": "Biotechnology",
+                    "suid": "NNFYX",
+                    "link": "/companies/best-Biotechnology-companies"
+                },
+                {
+                    "name": "Broadcast Media",
+                    "suid": "H8DP2",
+                    "link": "/companies/best-Broadcast-Media-companies"
+                },
+                {
+                    "name": "Business Consulting",
+                    "suid": "CDTP2",
+                    "link": "/companies/best-Business-Consulting-companies"
+                },
+                {
+                    "name": "Car & Truck Rental",
+                    "suid": "NZW2A",
+                    "link": "/companies/best-Car-&-Truck-Rental-companies"
+                },
+                {
+                    "name": "Catering & Food Service Contractors",
+                    "suid": "DHBU6",
+                    "link": "/companies/best-Catering-&-Food-Service-Contractors-companies"
+                },
+                {
+                    "name": "Chemical Manufacturing",
+                    "suid": "YG9JC",
+                    "link": "/companies/best-Chemical-Manufacturing-companies"
+                },
+                {
+                    "name": "Civic & Social Services",
+                    "suid": "T3XJD",
+                    "link": "/companies/best-Civic-&-Social-Services-companies"
+                },
+                {
+                    "name": "Colleges & Universities",
+                    "suid": "CX9CV",
+                    "link": "/companies/best-Colleges-&-Universities-companies"
+                },
+                {
+                    "name": "Commercial Equipment Services",
+                    "suid": "PF5YM",
+                    "link": "/companies/best-Commercial-Equipment-Services-companies"
+                },
+                {
+                    "name": "Commercial Printing",
+                    "suid": "4M8U3",
+                    "link": "/companies/best-Commercial-Printing-companies"
+                },
+                {
+                    "name": "Computer Hardware Development",
+                    "suid": "H778W",
+                    "link": "/companies/best-Computer-Hardware-Development-companies"
+                },
+                {
+                    "name": "Construction",
+                    "suid": "635FT",
+                    "link": "/companies/best-Construction-companies"
+                },
+                {
+                    "name": "Construction, Repair & Maintenance Services",
+                    "suid": "NTW8X",
+                    "link": "/companies/best-Construction,-Repair-&-Maintenance-Services-companies"
+                },
+                {
+                    "name": "Consumer Electronics & Appliances Stores",
+                    "suid": "G6Z54",
+                    "link": "/companies/best-Consumer-Electronics-&-Appliances-Stores-companies"
+                },
+                {
+                    "name": "Consumer Product Manufacturing",
+                    "suid": "EYQR8",
+                    "link": "/companies/best-Consumer-Product-Manufacturing-companies"
+                },
+                {
+                    "name": "Convenience Stores",
+                    "suid": "GPX33",
+                    "link": "/companies/best-Convenience-Stores-companies"
+                },
+                {
+                    "name": "Crop Production",
+                    "suid": "T49V8",
+                    "link": "/companies/best-Crop-Production-companies"
+                },
+                {
+                    "name": "Culture & Entertainment",
+                    "suid": "9RE87",
+                    "link": "/companies/best-Culture-&-Entertainment-companies"
+                },
+                {
+                    "name": "Debt Relief",
+                    "suid": "HMY57",
+                    "link": "/companies/best-Debt-Relief-companies"
+                },
+                {
+                    "name": "Dental Clinics",
+                    "suid": "8HQGB",
+                    "link": "/companies/best-Dental-Clinics-companies"
+                },
+                {
+                    "name": "Department, Clothing & Shoe Stores",
+                    "suid": "BCJGK",
+                    "link": "/companies/best-Department,-Clothing-&-Shoe-Stores-companies"
+                },
+                {
+                    "name": "Drug & Health Stores",
+                    "suid": "3WG2K",
+                    "link": "/companies/best-Drug-&-Health-Stores-companies"
+                },
+                {
+                    "name": "Education",
+                    "suid": "RFWNN",
+                    "link": "/companies/best-Education-companies"
+                },
+                {
+                    "name": "Education & Training Services",
+                    "suid": "PXHCG",
+                    "link": "/companies/best-Education-&-Training-Services-companies"
+                },
+                {
+                    "name": "Electronics Manufacturing",
+                    "suid": "9Q9XU",
+                    "link": "/companies/best-Electronics-Manufacturing-companies"
+                },
+                {
+                    "name": "Energy & Utilities",
+                    "suid": "BBWNN",
+                    "link": "/companies/best-Energy-&-Utilities-companies"
+                },
+                {
+                    "name": "Energy, Mining & Utilities",
+                    "suid": "TAN6J",
+                    "link": "/companies/best-Energy,-Mining-&-Utilities-companies"
+                },
+                {
+                    "name": "Event Services",
+                    "suid": "QXJQN",
+                    "link": "/companies/best-Event-Services-companies"
+                },
+                {
+                    "name": "Farm Support",
+                    "suid": "2BRN3",
+                    "link": "/companies/best-Farm-Support-companies"
+                },
+                {
+                    "name": "Film Production",
+                    "suid": "NTNDG",
+                    "link": "/companies/best-Film-Production-companies"
+                },
+                {
+                    "name": "Financial Services",
+                    "suid": "MSQWR",
+                    "link": "/companies/best-Financial-Services-companies"
+                },
+                {
+                    "name": "Financial Transaction Processing",
+                    "suid": "9S9X7",
+                    "link": "/companies/best-Financial-Transaction-Processing-companies"
+                },
+                {
+                    "name": "Fishery",
+                    "suid": "7RERV",
+                    "link": "/companies/best-Fishery-companies"
+                },
+                {
+                    "name": "Floral Nursery",
+                    "suid": "P4DUF",
+                    "link": "/companies/best-Floral-Nursery-companies"
+                },
+                {
+                    "name": "Food & Beverage Manufacturing",
+                    "suid": "79AQQ",
+                    "link": "/companies/best-Food-&-Beverage-Manufacturing-companies"
+                },
+                {
+                    "name": "Food & Beverage Stores",
+                    "suid": "XRQMJ",
+                    "link": "/companies/best-Food-&-Beverage-Stores-companies"
+                },
+                {
+                    "name": "Forestry, Logging & Timber Operations",
+                    "suid": "6SRXN",
+                    "link": "/companies/best-Forestry,-Logging-&-Timber-Operations-companies"
+                },
+                {
+                    "name": "Gambling",
+                    "suid": "Z89KY",
+                    "link": "/companies/best-Gambling-companies"
+                },
+                {
+                    "name": "General Merchandise & Superstores",
+                    "suid": "B9RV3",
+                    "link": "/companies/best-General-Merchandise-&-Superstores-companies"
+                },
+                {
+                    "name": "General Repair & Maintenance",
+                    "suid": "G5SND",
+                    "link": "/companies/best-General-Repair-&-Maintenance-companies"
+                },
+                {
+                    "name": "Gift, Novelty & Souvenir Stores",
+                    "suid": "4FYJU",
+                    "link": "/companies/best-Gift,-Novelty-&-Souvenir-Stores-companies"
+                },
+                {
+                    "name": "Government & Public Administration",
+                    "suid": "B23RH",
+                    "link": "/companies/best-Government-&-Public-Administration-companies"
+                },
+                {
+                    "name": "Grantmaking & Charitable Foundations",
+                    "suid": "WSMSF",
+                    "link": "/companies/best-Grantmaking-&-Charitable-Foundations-companies"
+                },
+                {
+                    "name": "Grocery Stores",
+                    "suid": "DEKMC",
+                    "link": "/companies/best-Grocery-Stores-companies"
+                },
+                {
+                    "name": "Health Care Products Manufacturing",
+                    "suid": "62UGJ",
+                    "link": "/companies/best-Health-Care-Products-Manufacturing-companies"
+                },
+                {
+                    "name": "Healthcare",
+                    "suid": "22VKN",
+                    "link": "/companies/best-Healthcare-companies"
+                },
+                {
+                    "name": "Home Furniture & Housewares Stores",
+                    "suid": "93S5U",
+                    "link": "/companies/best-Home-Furniture-&-Housewares-Stores-companies"
+                },
+                {
+                    "name": "Hospitals & Health Clinics",
+                    "suid": "EBV85",
+                    "link": "/companies/best-Hospitals-&-Health-Clinics-companies"
+                },
+                {
+                    "name": "Hotels & Resorts",
+                    "suid": "A53G8",
+                    "link": "/companies/best-Hotels-&-Resorts-companies"
+                },
+                {
+                    "name": "Hotels & Travel Accommodation",
+                    "suid": "X42V4",
+                    "link": "/companies/best-Hotels-&-Travel-Accommodation-companies"
+                },
+                {
+                    "name": "HR Consulting",
+                    "suid": "GAR9M",
+                    "link": "/companies/best-HR-Consulting-companies"
+                },
+                {
+                    "name": "Human Resources & Staffing",
+                    "suid": "Q3FC3",
+                    "link": "/companies/best-Human-Resources-&-Staffing-companies"
+                },
+                {
+                    "name": "Information Technology",
+                    "suid": "NKR5F",
+                    "link": "/companies/best-Information-Technology-companies"
+                },
+                {
+                    "name": "Information Technology Support Services",
+                    "suid": "89ZBY",
+                    "link": "/companies/best-Information-Technology-Support-Services-companies"
+                },
+                {
+                    "name": "Insurance",
+                    "suid": "4EWFJ",
+                    "link": "/companies/best-Insurance-companies"
+                },
+                {
+                    "name": "Insurance Agencies & Brokerages",
+                    "suid": "UHTYH",
+                    "link": "/companies/best-Insurance-Agencies-&-Brokerages-companies"
+                },
+                {
+                    "name": "Insurance Carriers",
+                    "suid": "TVMAD",
+                    "link": "/companies/best-Insurance-Carriers-companies"
+                },
+                {
+                    "name": "Internet & Web Services",
+                    "suid": "CS9YK",
+                    "link": "/companies/best-Internet-&-Web-Services-companies"
+                },
+                {
+                    "name": "Investment & Asset Management",
+                    "suid": "6ZAA6",
+                    "link": "/companies/best-Investment-&-Asset-Management-companies"
+                },
+                {
+                    "name": "Laundry & Dry Cleaning",
+                    "suid": "TKE5T",
+                    "link": "/companies/best-Laundry-&-Dry-Cleaning-companies"
+                },
+                {
+                    "name": "Law Firms",
+                    "suid": "D5VK9",
+                    "link": "/companies/best-Law-Firms-companies"
+                },
+                {
+                    "name": "Legal",
+                    "suid": "6GW2X",
+                    "link": "/companies/best-Legal-companies"
+                },
+                {
+                    "name": "Legal Services",
+                    "suid": "9JSJ8",
+                    "link": "/companies/best-Legal-Services-companies"
+                },
+                {
+                    "name": "Machinery Manufacturing",
+                    "suid": "8ZEHH",
+                    "link": "/companies/best-Machinery-Manufacturing-companies"
+                },
+                {
+                    "name": "Management & Consulting",
+                    "suid": "92AZY",
+                    "link": "/companies/best-Management-&-Consulting-companies"
+                },
+                {
+                    "name": "Manufacturing",
+                    "suid": "CPGHF",
+                    "link": "/companies/best-Manufacturing-companies"
+                },
+                {
+                    "name": "Marine Transportation",
+                    "suid": "ZTQ5R",
+                    "link": "/companies/best-Marine-Transportation-companies"
+                },
+                {
+                    "name": "Media & Communication",
+                    "suid": "4DGEF",
+                    "link": "/companies/best-Media-&-Communication-companies"
+                },
+                {
+                    "name": "Media & Entertainment Stores",
+                    "suid": "AEQEC",
+                    "link": "/companies/best-Media-&-Entertainment-Stores-companies"
+                },
+                {
+                    "name": "Medical Testing & Clinical Laboratories",
+                    "suid": "FXGY8",
+                    "link": "/companies/best-Medical-Testing-&-Clinical-Laboratories-companies"
+                },
+                {
+                    "name": "Membership Organizations",
+                    "suid": "8K97K",
+                    "link": "/companies/best-Membership-Organizations-companies"
+                },
+                {
+                    "name": "Metal & Mineral Manufacturing",
+                    "suid": "PK9W8",
+                    "link": "/companies/best-Metal-&-Mineral-Manufacturing-companies"
+                },
+                {
+                    "name": "Mining & Metals",
+                    "suid": "DVA94",
+                    "link": "/companies/best-Mining-&-Metals-companies"
+                },
+                {
+                    "name": "Municipal Agencies",
+                    "suid": "4BSSN",
+                    "link": "/companies/best-Municipal-Agencies-companies"
+                },
+                {
+                    "name": "Music & Sound Production",
+                    "suid": "A3989",
+                    "link": "/companies/best-Music-&-Sound-Production-companies"
+                },
+                {
+                    "name": "National Agencies",
+                    "suid": "5XEHQ",
+                    "link": "/companies/best-National-Agencies-companies"
+                },
+                {
+                    "name": "Nonprofit & NGO",
+                    "suid": "ZMM32",
+                    "link": "/companies/best-Nonprofit-&-NGO-companies"
+                },
+                {
+                    "name": "Nursing Care",
+                    "suid": "ZQMQE",
+                    "link": "/companies/best-Nursing-Care-companies"
+                },
+                {
+                    "name": "Office Supply & Copy Stores",
+                    "suid": "R2MWG",
+                    "link": "/companies/best-Office-Supply-&-Copy-Stores-companies"
+                },
+                {
+                    "name": "Parking & Valet",
+                    "suid": "GJ468",
+                    "link": "/companies/best-Parking-&-Valet-companies"
+                },
+                {
+                    "name": "Personal Consumer Services",
+                    "suid": "ZYCW4",
+                    "link": "/companies/best-Personal-Consumer-Services-companies"
+                },
+                {
+                    "name": "Pet & Pet Supplies Stores",
+                    "suid": "DTWRN",
+                    "link": "/companies/best-Pet-&-Pet-Supplies-Stores-companies"
+                },
+                {
+                    "name": "Pet Care & Veterinary",
+                    "suid": "PDQ45",
+                    "link": "/companies/best-Pet-Care-&-Veterinary-companies"
+                },
+                {
+                    "name": "Pharmaceutical",
+                    "suid": "JPQH6",
+                    "link": "/companies/best-Pharmaceutical-companies"
+                },
+                {
+                    "name": "Pharmaceutical & Biotechnology",
+                    "suid": "5ZM33",
+                    "link": "/companies/best-Pharmaceutical-&-Biotechnology-companies"
+                },
+                {
+                    "name": "Photography",
+                    "suid": "96ME7",
+                    "link": "/companies/best-Photography-companies"
+                },
+                {
+                    "name": "Preschools & Child Care Services",
+                    "suid": "S4J2H",
+                    "link": "/companies/best-Preschools-&-Child-Care-Services-companies"
+                },
+                {
+                    "name": "Primary & Secondary Schools",
+                    "suid": "U6FAC",
+                    "link": "/companies/best-Primary-&-Secondary-Schools-companies"
+                },
+                {
+                    "name": "Private Households",
+                    "suid": "PEM6E",
+                    "link": "/companies/best-Private-Households-companies"
+                },
+                {
+                    "name": "Property Management",
+                    "suid": "NE35S",
+                    "link": "/companies/best-Property-Management-companies"
+                },
+                {
+                    "name": "Publishing",
+                    "suid": "K7RDD",
+                    "link": "/companies/best-Publishing-companies"
+                },
+                {
+                    "name": "Rail Transportation",
+                    "suid": "PYMTV",
+                    "link": "/companies/best-Rail-Transportation-companies"
+                },
+                {
+                    "name": "Real Estate",
+                    "suid": "S7KHR",
+                    "link": "/companies/best-Real-Estate-companies"
+                },
+                {
+                    "name": "Real Estate Agencies",
+                    "suid": "BJX4R",
+                    "link": "/companies/best-Real-Estate-Agencies-companies"
+                },
+                {
+                    "name": "Recruiting",
+                    "suid": "UTJZH",
+                    "link": "/companies/best-Recruiting-companies"
+                },
+                {
+                    "name": "Recruiting & Staffing",
+                    "suid": "3BYZZ",
+                    "link": "/companies/best-Recruiting-&-Staffing-companies"
+                },
+                {
+                    "name": "Religious Institutions",
+                    "suid": "RXJJY",
+                    "link": "/companies/best-Religious-Institutions-companies"
+                },
+                {
+                    "name": "Research & Development",
+                    "suid": "T3NDB",
+                    "link": "/companies/best-Research-&-Development-companies"
+                },
+                {
+                    "name": "Restaurants & Cafes",
+                    "suid": "CWQGK",
+                    "link": "/companies/best-Restaurants-&-Cafes-companies"
+                },
+                {
+                    "name": "Restaurants & Food Service",
+                    "suid": "W2F4E",
+                    "link": "/companies/best-Restaurants-&-Food-Service-companies"
+                },
+                {
+                    "name": "Retail & Wholesale",
+                    "suid": "48BZP",
+                    "link": "/companies/best-Retail-&-Wholesale-companies"
+                },
+                {
+                    "name": "Security & Protective",
+                    "suid": "5G7JG",
+                    "link": "/companies/best-Security-&-Protective-companies"
+                },
+                {
+                    "name": "Shipping & Trucking",
+                    "suid": "ABCS6",
+                    "link": "/companies/best-Shipping-&-Trucking-companies"
+                },
+                {
+                    "name": "Software Development",
+                    "suid": "PCZE9",
+                    "link": "/companies/best-Software-Development-companies"
+                },
+                {
+                    "name": "Sporting Goods Stores",
+                    "suid": "MBZJP",
+                    "link": "/companies/best-Sporting-Goods-Stores-companies"
+                },
+                {
+                    "name": "Sports & Recreation",
+                    "suid": "2URDC",
+                    "link": "/companies/best-Sports-&-Recreation-companies"
+                },
+                {
+                    "name": "Staffing",
+                    "suid": "D722D",
+                    "link": "/companies/best-Staffing-companies"
+                },
+                {
+                    "name": "State & Regional Agencies",
+                    "suid": "DQVS4",
+                    "link": "/companies/best-State-&-Regional-Agencies-companies"
+                },
+                {
+                    "name": "Stock Exchanges",
+                    "suid": "AE87Q",
+                    "link": "/companies/best-Stock-Exchanges-companies"
+                },
+                {
+                    "name": "Taxi & Car Services",
+                    "suid": "RDYGY",
+                    "link": "/companies/best-Taxi-&-Car-Services-companies"
+                },
+                {
+                    "name": "Telecommunications",
+                    "suid": "JGU5R",
+                    "link": "/companies/best-Telecommunications-companies"
+                },
+                {
+                    "name": "Textile & Apparel Manufacturing",
+                    "suid": "FEMXU",
+                    "link": "/companies/best-Textile-&-Apparel-Manufacturing-companies"
+                },
+                {
+                    "name": "Ticket Sales",
+                    "suid": "X3RQ3",
+                    "link": "/companies/best-Ticket-Sales-companies"
+                },
+                {
+                    "name": "Toy & Hobby Stores",
+                    "suid": "2J6NB",
+                    "link": "/companies/best-Toy-&-Hobby-Stores-companies"
+                },
+                {
+                    "name": "Translation & Linguistic Services",
+                    "suid": "DPX5T",
+                    "link": "/companies/best-Translation-&-Linguistic-Services-companies"
+                },
+                {
+                    "name": "Transportation & Logistics",
+                    "suid": "P634J",
+                    "link": "/companies/best-Transportation-&-Logistics-companies"
+                },
+                {
+                    "name": "Transportation Equipment Manufacturing",
+                    "suid": "PG33U",
+                    "link": "/companies/best-Transportation-Equipment-Manufacturing-companies"
+                },
+                {
+                    "name": "Transportation Management",
+                    "suid": "2VWHM",
+                    "link": "/companies/best-Transportation-Management-companies"
+                },
+                {
+                    "name": "Travel Agencies",
+                    "suid": "8TFB9",
+                    "link": "/companies/best-Travel-Agencies-companies"
+                },
+                {
+                    "name": "Vehicle Dealers",
+                    "suid": "V7K2C",
+                    "link": "/companies/best-Vehicle-Dealers-companies"
+                },
+                {
+                    "name": "Vehicle Repair & Maintenance",
+                    "suid": "5G2KC",
+                    "link": "/companies/best-Vehicle-Repair-&-Maintenance-companies"
+                },
+                {
+                    "name": "Video Game Publishing",
+                    "suid": "4E68B",
+                    "link": "/companies/best-Video-Game-Publishing-companies"
+                },
+                {
+                    "name": "Waste Management",
+                    "suid": "RR4DA",
+                    "link": "/companies/best-Waste-Management-companies"
+                },
+                {
+                    "name": "Wholesale",
+                    "suid": "KMA88",
+                    "link": "/companies/best-Wholesale-companies"
+                },
+                {
+                    "name": "Wood & Paper Manufacturing",
+                    "suid": "XA2BA",
+                    "link": "/companies/best-Wood-&-Paper-Manufacturing-companies"
+                }
+            ],
+            "allLocations": [
+                {
+                    "name": "United States",
+                    "link": "/companies/best-companies"
+                },
+                {
+                    "name": "Alabama",
+                    "count": 48083,
+                    "link": "/companies/best-companies-in-Alabama"
+                },
+                {
+                    "name": "Birmingham, AL",
+                    "count": 9241,
+                    "link": "/companies/best-companies-in-Birmingham,-AL"
+                },
+                {
+                    "name": "Huntsville, AL",
+                    "count": 6007,
+                    "link": "/companies/best-companies-in-Huntsville,-AL"
+                },
+                {
+                    "name": "Mobile, AL",
+                    "count": 5896,
+                    "link": "/companies/best-companies-in-Mobile,-AL"
+                },
+                {
+                    "name": "Alaska",
+                    "count": 8588,
+                    "link": "/companies/best-companies-in-Alaska"
+                },
+                {
+                    "name": "American Samoa",
+                    "count": 804,
+                    "link": "/companies/best-companies-in-American-Samoa"
+                },
+                {
+                    "name": "Arizona",
+                    "count": 63103,
+                    "link": "/companies/best-companies-in-Arizona"
+                },
+                {
+                    "name": "Mesa, AZ",
+                    "count": 6928,
+                    "link": "/companies/best-companies-in-Mesa,-AZ"
+                },
+                {
+                    "name": "Phoenix, AZ",
+                    "count": 25860,
+                    "link": "/companies/best-companies-in-Phoenix,-AZ"
+                },
+                {
+                    "name": "Scottsdale, AZ",
+                    "count": 7050,
+                    "link": "/companies/best-companies-in-Scottsdale,-AZ"
+                },
+                {
+                    "name": "Tempe, AZ",
+                    "count": 6599,
+                    "link": "/companies/best-companies-in-Tempe,-AZ"
+                },
+                {
+                    "name": "Tucson, AZ",
+                    "count": 10156,
+                    "link": "/companies/best-companies-in-Tucson,-AZ"
+                },
+                {
+                    "name": "Arkansas",
+                    "count": 31396,
+                    "link": "/companies/best-companies-in-Arkansas"
+                },
+                {
+                    "name": "Little Rock, AR",
+                    "count": 6300,
+                    "link": "/companies/best-companies-in-Little-Rock,-AR"
+                },
+                {
+                    "name": "California",
+                    "count": 248420,
+                    "link": "/companies/best-companies-in-California"
+                },
+                {
+                    "name": "Bakersfield, CA",
+                    "count": 6365,
+                    "link": "/companies/best-companies-in-Bakersfield,-CA"
+                },
+                {
+                    "name": "Fresno, CA",
+                    "count": 7982,
+                    "link": "/companies/best-companies-in-Fresno,-CA"
+                },
+                {
+                    "name": "Irvine, CA",
+                    "count": 7799,
+                    "link": "/companies/best-companies-in-Irvine,-CA"
+                },
+                {
+                    "name": "Long Beach, CA",
+                    "count": 5756,
+                    "link": "/companies/best-companies-in-Long-Beach,-CA"
+                },
+                {
+                    "name": "Los Angeles, CA",
+                    "count": 33419,
+                    "link": "/companies/best-companies-in-Los-Angeles,-CA"
+                },
+                {
+                    "name": "Ontario, CA",
+                    "count": 8147,
+                    "link": "/companies/best-companies-in-Ontario,-CA"
+                },
+                {
+                    "name": "Riverside, CA",
+                    "count": 6267,
+                    "link": "/companies/best-companies-in-Riverside,-CA"
+                },
+                {
+                    "name": "Sacramento, CA",
+                    "count": 13423,
+                    "link": "/companies/best-companies-in-Sacramento,-CA"
+                },
+                {
+                    "name": "San Diego, CA",
+                    "count": 22100,
+                    "link": "/companies/best-companies-in-San-Diego,-CA"
+                },
+                {
+                    "name": "San Francisco, CA",
+                    "count": 14107,
+                    "link": "/companies/best-companies-in-San-Francisco,-CA"
+                },
+                {
+                    "name": "San Jose, CA",
+                    "count": 10608,
+                    "link": "/companies/best-companies-in-San-Jose,-CA"
+                },
+                {
+                    "name": "Colorado",
+                    "count": 62351,
+                    "link": "/companies/best-companies-in-Colorado"
+                },
+                {
+                    "name": "Colorado Springs, CO",
+                    "count": 9781,
+                    "link": "/companies/best-companies-in-Colorado-Springs,-CO"
+                },
+                {
+                    "name": "Denver, CO",
+                    "count": 21606,
+                    "link": "/companies/best-companies-in-Denver,-CO"
+                },
+                {
+                    "name": "Connecticut",
+                    "count": 35649,
+                    "link": "/companies/best-companies-in-Connecticut"
+                },
+                {
+                    "name": "Delaware",
+                    "count": 20712,
+                    "link": "/companies/best-companies-in-Delaware"
+                },
+                {
+                    "name": "District of Columbia",
+                    "count": 22678,
+                    "link": "/companies/best-companies-in-District-of-Columbia"
+                },
+                {
+                    "name": "Washington, DC",
+                    "count": 22156,
+                    "link": "/companies/best-companies-in-Washington,-DC"
+                },
+                {
+                    "name": "ENG",
+                    "count": 11452,
+                    "link": "/companies/best-companies-in-ENG"
+                },
+                {
+                    "name": "Pennsylvania, ENG",
+                    "count": 11452,
+                    "link": "/companies/best-companies-in-Pennsylvania,-ENG"
+                },
+                {
+                    "name": "Florida",
+                    "count": 176441,
+                    "link": "/companies/best-companies-in-Florida"
+                },
+                {
+                    "name": "Fort Lauderdale, FL",
+                    "count": 9901,
+                    "link": "/companies/best-companies-in-Fort-Lauderdale,-FL"
+                },
+                {
+                    "name": "Fort Myers, FL",
+                    "count": 6127,
+                    "link": "/companies/best-companies-in-Fort-Myers,-FL"
+                },
+                {
+                    "name": "Jacksonville, FL",
+                    "count": 17885,
+                    "link": "/companies/best-companies-in-Jacksonville,-FL"
+                },
+                {
+                    "name": "Miami, FL",
+                    "count": 25050,
+                    "link": "/companies/best-companies-in-Miami,-FL"
+                },
+                {
+                    "name": "Orlando, FL",
+                    "count": 22255,
+                    "link": "/companies/best-companies-in-Orlando,-FL"
+                },
+                {
+                    "name": "Saint Petersburg, FL",
+                    "count": 5515,
+                    "link": "/companies/best-companies-in-Saint-Petersburg,-FL"
+                },
+                {
+                    "name": "Tampa, FL",
+                    "count": 20439,
+                    "link": "/companies/best-companies-in-Tampa,-FL"
+                },
+                {
+                    "name": "West Palm Beach, FL",
+                    "count": 6675,
+                    "link": "/companies/best-companies-in-West-Palm-Beach,-FL"
+                },
+                {
+                    "name": "Georgia",
+                    "count": 104349,
+                    "link": "/companies/best-companies-in-Georgia"
+                },
+                {
+                    "name": "Atlanta, GA",
+                    "count": 33649,
+                    "link": "/companies/best-companies-in-Atlanta,-GA"
+                },
+                {
+                    "name": "Savannah, GA",
+                    "count": 5966,
+                    "link": "/companies/best-companies-in-Savannah,-GA"
+                },
+                {
+                    "name": "Guam",
+                    "count": 2688,
+                    "link": "/companies/best-companies-in-Guam"
+                },
+                {
+                    "name": "Hawaii",
+                    "count": 9899,
+                    "link": "/companies/best-companies-in-Hawaii"
+                },
+                {
+                    "name": "Idaho",
+                    "count": 18312,
+                    "link": "/companies/best-companies-in-Idaho"
+                },
+                {
+                    "name": "Boise, ID",
+                    "count": 5790,
+                    "link": "/companies/best-companies-in-Boise,-ID"
+                },
+                {
+                    "name": "Illinois",
+                    "count": 110478,
+                    "link": "/companies/best-companies-in-Illinois"
+                },
+                {
+                    "name": "Chicago, IL",
+                    "count": 38321,
+                    "link": "/companies/best-companies-in-Chicago,-IL"
+                },
+                {
+                    "name": "Indiana",
+                    "count": 67159,
+                    "link": "/companies/best-companies-in-Indiana"
+                },
+                {
+                    "name": "Fort Wayne, IN",
+                    "count": 5607,
+                    "link": "/companies/best-companies-in-Fort-Wayne,-IN"
+                },
+                {
+                    "name": "Indianapolis, IN",
+                    "count": 17983,
+                    "link": "/companies/best-companies-in-Indianapolis,-IN"
+                },
+                {
+                    "name": "Iowa",
+                    "count": 28130,
+                    "link": "/companies/best-companies-in-Iowa"
+                },
+                {
+                    "name": "Kansas",
+                    "count": 31313,
+                    "link": "/companies/best-companies-in-Kansas"
+                },
+                {
+                    "name": "Wichita, KS",
+                    "count": 6799,
+                    "link": "/companies/best-companies-in-Wichita,-KS"
+                },
+                {
+                    "name": "Kentucky",
+                    "count": 42340,
+                    "link": "/companies/best-companies-in-Kentucky"
+                },
+                {
+                    "name": "Lexington, KY",
+                    "count": 5835,
+                    "link": "/companies/best-companies-in-Lexington,-KY"
+                },
+                {
+                    "name": "Louisville, KY",
+                    "count": 11462,
+                    "link": "/companies/best-companies-in-Louisville,-KY"
+                },
+                {
+                    "name": "Louisiana",
+                    "count": 47148,
+                    "link": "/companies/best-companies-in-Louisiana"
+                },
+                {
+                    "name": "Baton Rouge, LA",
+                    "count": 8257,
+                    "link": "/companies/best-companies-in-Baton-Rouge,-LA"
+                },
+                {
+                    "name": "New Orleans, LA",
+                    "count": 8614,
+                    "link": "/companies/best-companies-in-New-Orleans,-LA"
+                },
+                {
+                    "name": "Maine",
+                    "count": 13981,
+                    "link": "/companies/best-companies-in-Maine"
+                },
+                {
+                    "name": "Maryland",
+                    "count": 61885,
+                    "link": "/companies/best-companies-in-Maryland"
+                },
+                {
+                    "name": "Baltimore, MD",
+                    "count": 15162,
+                    "link": "/companies/best-companies-in-Baltimore,-MD"
+                },
+                {
+                    "name": "Massachusetts",
+                    "count": 59316,
+                    "link": "/companies/best-companies-in-Massachusetts"
+                },
+                {
+                    "name": "Boston, MA",
+                    "count": 13739,
+                    "link": "/companies/best-companies-in-Boston,-MA"
+                },
+                {
+                    "name": "Michigan",
+                    "count": 88718,
+                    "link": "/companies/best-companies-in-Michigan"
+                },
+                {
+                    "name": "Detroit, MI",
+                    "count": 11583,
+                    "link": "/companies/best-companies-in-Detroit,-MI"
+                },
+                {
+                    "name": "Grand Rapids, MI",
+                    "count": 7853,
+                    "link": "/companies/best-companies-in-Grand-Rapids,-MI"
+                },
+                {
+                    "name": "Minnesota",
+                    "count": 45582,
+                    "link": "/companies/best-companies-in-Minnesota"
+                },
+                {
+                    "name": "Minneapolis, MN",
+                    "count": 10349,
+                    "link": "/companies/best-companies-in-Minneapolis,-MN"
+                },
+                {
+                    "name": "Mississippi",
+                    "count": 28858,
+                    "link": "/companies/best-companies-in-Mississippi"
+                },
+                {
+                    "name": "Missouri",
+                    "count": 63615,
+                    "link": "/companies/best-companies-in-Missouri"
+                },
+                {
+                    "name": "Kansas City, MO",
+                    "count": 11427,
+                    "link": "/companies/best-companies-in-Kansas-City,-MO"
+                },
+                {
+                    "name": "St. Louis, MO",
+                    "count": 17184,
+                    "link": "/companies/best-companies-in-St.-Louis,-MO"
+                },
+                {
+                    "name": "Montana",
+                    "count": 11703,
+                    "link": "/companies/best-companies-in-Montana"
+                },
+                {
+                    "name": "Nebraska",
+                    "count": 19862,
+                    "link": "/companies/best-companies-in-Nebraska"
+                },
+                {
+                    "name": "Omaha, NE",
+                    "count": 8550,
+                    "link": "/companies/best-companies-in-Omaha,-NE"
+                },
+                {
+                    "name": "Nevada",
+                    "count": 35162,
+                    "link": "/companies/best-companies-in-Nevada"
+                },
+                {
+                    "name": "Las Vegas, NV",
+                    "count": 24151,
+                    "link": "/companies/best-companies-in-Las-Vegas,-NV"
+                },
+                {
+                    "name": "Reno, NV",
+                    "count": 6014,
+                    "link": "/companies/best-companies-in-Reno,-NV"
+                },
+                {
+                    "name": "New Hampshire",
+                    "count": 15598,
+                    "link": "/companies/best-companies-in-New-Hampshire"
+                },
+                {
+                    "name": "New Jersey",
+                    "count": 77592,
+                    "link": "/companies/best-companies-in-New-Jersey"
+                },
+                {
+                    "name": "New Mexico",
+                    "count": 21825,
+                    "link": "/companies/best-companies-in-New-Mexico"
+                },
+                {
+                    "name": "Albuquerque, NM",
+                    "count": 9024,
+                    "link": "/companies/best-companies-in-Albuquerque,-NM"
+                },
+                {
+                    "name": "New York State",
+                    "count": 153151,
+                    "link": "/companies/best-companies-in-New-York-State"
+                },
+                {
+                    "name": "Bronx, NY",
+                    "count": 8883,
+                    "link": "/companies/best-companies-in-Bronx,-NY"
+                },
+                {
+                    "name": "Brooklyn, NY",
+                    "count": 16071,
+                    "link": "/companies/best-companies-in-Brooklyn,-NY"
+                },
+                {
+                    "name": "Buffalo, NY",
+                    "count": 6784,
+                    "link": "/companies/best-companies-in-Buffalo,-NY"
+                },
+                {
+                    "name": "Manhattan, NY",
+                    "count": 7783,
+                    "link": "/companies/best-companies-in-Manhattan,-NY"
+                },
+                {
+                    "name": "New York, NY",
+                    "count": 59355,
+                    "link": "/companies/best-companies-in-New-York,-NY"
+                },
+                {
+                    "name": "Queens, NY",
+                    "count": 6961,
+                    "link": "/companies/best-companies-in-Queens,-NY"
+                },
+                {
+                    "name": "Rochester, NY",
+                    "count": 7637,
+                    "link": "/companies/best-companies-in-Rochester,-NY"
+                },
+                {
+                    "name": "North Carolina",
+                    "count": 93627,
+                    "link": "/companies/best-companies-in-North-Carolina"
+                },
+                {
+                    "name": "Charlotte, NC",
+                    "count": 19209,
+                    "link": "/companies/best-companies-in-Charlotte,-NC"
+                },
+                {
+                    "name": "Durham, NC",
+                    "count": 6114,
+                    "link": "/companies/best-companies-in-Durham,-NC"
+                },
+                {
+                    "name": "Greensboro, NC",
+                    "count": 7598,
+                    "link": "/companies/best-companies-in-Greensboro,-NC"
+                },
+                {
+                    "name": "Raleigh, NC",
+                    "count": 11404,
+                    "link": "/companies/best-companies-in-Raleigh,-NC"
+                },
+                {
+                    "name": "North Dakota",
+                    "count": 10684,
+                    "link": "/companies/best-companies-in-North-Dakota"
+                },
+                {
+                    "name": "Northern Mariana Islands",
+                    "count": 449,
+                    "link": "/companies/best-companies-in-Northern-Mariana-Islands"
+                },
+                {
+                    "name": "Ohio",
+                    "count": 103134,
+                    "link": "/companies/best-companies-in-Ohio"
+                },
+                {
+                    "name": "Cincinnati, OH",
+                    "count": 12912,
+                    "link": "/companies/best-companies-in-Cincinnati,-OH"
+                },
+                {
+                    "name": "Cleveland, OH",
+                    "count": 11733,
+                    "link": "/companies/best-companies-in-Cleveland,-OH"
+                },
+                {
+                    "name": "Columbus, OH",
+                    "count": 15609,
+                    "link": "/companies/best-companies-in-Columbus,-OH"
+                },
+                {
+                    "name": "Dayton, OH",
+                    "count": 6507,
+                    "link": "/companies/best-companies-in-Dayton,-OH"
+                },
+                {
+                    "name": "Oklahoma",
+                    "count": 40870,
+                    "link": "/companies/best-companies-in-Oklahoma"
+                },
+                {
+                    "name": "Oklahoma City, OK",
+                    "count": 12430,
+                    "link": "/companies/best-companies-in-Oklahoma-City,-OK"
+                },
+                {
+                    "name": "Tulsa, OK",
+                    "count": 10138,
+                    "link": "/companies/best-companies-in-Tulsa,-OK"
+                },
+                {
+                    "name": "Oregon",
+                    "count": 37121,
+                    "link": "/companies/best-companies-in-Oregon"
+                },
+                {
+                    "name": "Portland, OR",
+                    "count": 13531,
+                    "link": "/companies/best-companies-in-Portland,-OR"
+                },
+                {
+                    "name": "Pennsylvania",
+                    "count": 101931,
+                    "link": "/companies/best-companies-in-Pennsylvania"
+                },
+                {
+                    "name": "Philadelphia, PA",
+                    "count": 21273,
+                    "link": "/companies/best-companies-in-Philadelphia,-PA"
+                },
+                {
+                    "name": "Pittsburgh, PA",
+                    "count": 12417,
+                    "link": "/companies/best-companies-in-Pittsburgh,-PA"
+                },
+                {
+                    "name": "Puerto Rico",
+                    "count": 15485,
+                    "link": "/companies/best-companies-in-Puerto-Rico"
+                },
+                {
+                    "name": "Rhode Island",
+                    "count": 11382,
+                    "link": "/companies/best-companies-in-Rhode-Island"
+                },
+                {
+                    "name": "South Carolina",
+                    "count": 51824,
+                    "link": "/companies/best-companies-in-South-Carolina"
+                },
+                {
+                    "name": "Charleston, SC",
+                    "count": 6661,
+                    "link": "/companies/best-companies-in-Charleston,-SC"
+                },
+                {
+                    "name": "Columbia, SC",
+                    "count": 8487,
+                    "link": "/companies/best-companies-in-Columbia,-SC"
+                },
+                {
+                    "name": "Greenville, SC",
+                    "count": 7028,
+                    "link": "/companies/best-companies-in-Greenville,-SC"
+                },
+                {
+                    "name": "South Dakota",
+                    "count": 8632,
+                    "link": "/companies/best-companies-in-South-Dakota"
+                },
+                {
+                    "name": "Tennessee",
+                    "count": 64995,
+                    "link": "/companies/best-companies-in-Tennessee"
+                },
+                {
+                    "name": "Chattanooga, TN",
+                    "count": 5896,
+                    "link": "/companies/best-companies-in-Chattanooga,-TN"
+                },
+                {
+                    "name": "Knoxville, TN",
+                    "count": 7651,
+                    "link": "/companies/best-companies-in-Knoxville,-TN"
+                },
+                {
+                    "name": "Memphis, TN",
+                    "count": 13190,
+                    "link": "/companies/best-companies-in-Memphis,-TN"
+                },
+                {
+                    "name": "Nashville, TN",
+                    "count": 14067,
+                    "link": "/companies/best-companies-in-Nashville,-TN"
+                },
+                {
+                    "name": "Texas",
+                    "count": 218825,
+                    "link": "/companies/best-companies-in-Texas"
+                },
+                {
+                    "name": "Arlington, TX",
+                    "count": 6249,
+                    "link": "/companies/best-companies-in-Arlington,-TX"
+                },
+                {
+                    "name": "Austin, TX",
+                    "count": 21090,
+                    "link": "/companies/best-companies-in-Austin,-TX"
+                },
+                {
+                    "name": "Corpus Christi, TX",
+                    "count": 5412,
+                    "link": "/companies/best-companies-in-Corpus-Christi,-TX"
+                },
+                {
+                    "name": "Dallas-Fort Worth, TX",
+                    "count": 6048,
+                    "link": "/companies/best-companies-in-Dallas-Fort-Worth,-TX"
+                },
+                {
+                    "name": "Dallas, TX",
+                    "count": 30767,
+                    "link": "/companies/best-companies-in-Dallas,-TX"
+                },
+                {
+                    "name": "El Paso, TX",
+                    "count": 8443,
+                    "link": "/companies/best-companies-in-El-Paso,-TX"
+                },
+                {
+                    "name": "Fort Worth, TX",
+                    "count": 13376,
+                    "link": "/companies/best-companies-in-Fort-Worth,-TX"
+                },
+                {
+                    "name": "Houston, TX",
+                    "count": 50337,
+                    "link": "/companies/best-companies-in-Houston,-TX"
+                },
+                {
+                    "name": "Irving, TX",
+                    "count": 6085,
+                    "link": "/companies/best-companies-in-Irving,-TX"
+                },
+                {
+                    "name": "Plano, TX",
+                    "count": 6429,
+                    "link": "/companies/best-companies-in-Plano,-TX"
+                },
+                {
+                    "name": "San Antonio, TX",
+                    "count": 23121,
+                    "link": "/companies/best-companies-in-San-Antonio,-TX"
+                },
+                {
+                    "name": "United States Minor Outlying Islands",
+                    "count": 35,
+                    "link": "/companies/best-companies-in-United-States-Minor-Outlying-Islands"
+                },
+                {
+                    "name": "Utah",
+                    "count": 32217,
+                    "link": "/companies/best-companies-in-Utah"
+                },
+                {
+                    "name": "Salt Lake City, UT",
+                    "count": 11040,
+                    "link": "/companies/best-companies-in-Salt-Lake-City,-UT"
+                },
+                {
+                    "name": "Vermont",
+                    "count": 6376,
+                    "link": "/companies/best-companies-in-Vermont"
+                },
+                {
+                    "name": "Virgin Islands",
+                    "count": 1768,
+                    "link": "/companies/best-companies-in-Virgin-Islands"
+                },
+                {
+                    "name": "Virginia",
+                    "count": 81594,
+                    "link": "/companies/best-companies-in-Virginia"
+                },
+                {
+                    "name": "Norfolk, VA",
+                    "count": 6155,
+                    "link": "/companies/best-companies-in-Norfolk,-VA"
+                },
+                {
+                    "name": "Richmond, VA",
+                    "count": 11911,
+                    "link": "/companies/best-companies-in-Richmond,-VA"
+                },
+                {
+                    "name": "Virginia Beach, VA",
+                    "count": 6910,
+                    "link": "/companies/best-companies-in-Virginia-Beach,-VA"
+                },
+                {
+                    "name": "Washington State",
+                    "count": 60591,
+                    "link": "/companies/best-companies-in-Washington-State"
+                },
+                {
+                    "name": "Seattle, WA",
+                    "count": 14001,
+                    "link": "/companies/best-companies-in-Seattle,-WA"
+                },
+                {
+                    "name": "Spokane, WA",
+                    "count": 5684,
+                    "link": "/companies/best-companies-in-Spokane,-WA"
+                },
+                {
+                    "name": "West Virginia",
+                    "count": 21577,
+                    "link": "/companies/best-companies-in-West-Virginia"
+                },
+                {
+                    "name": "Wisconsin",
+                    "count": 50095,
+                    "link": "/companies/best-companies-in-Wisconsin"
+                },
+                {
+                    "name": "Madison, WI",
+                    "count": 5479,
+                    "link": "/companies/best-companies-in-Madison,-WI"
+                },
+                {
+                    "name": "Milwaukee, WI",
+                    "count": 10606,
+                    "link": "/companies/best-companies-in-Milwaukee,-WI"
+                },
+                {
+                    "name": "Wyoming",
+                    "count": 9512,
+                    "link": "/companies/best-companies-in-Wyoming"
+                }
+            ],
+            "results": [
+                {
+                    "name": "Costco Wholesale",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/d8e79f96d61037c94ebe83fcecdd3166",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/bad083647729efd904ba4e967abfa2e8",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 4,
+                    "reviewsCount": 18184,
+                    "reviewsUrl": "/cmp/Costco-Wholesale/reviews",
+                    "jobsUrl": "/cmp/Costco-Wholesale/jobs",
+                    "companyUrl": "/cmp/Costco-Wholesale",
+                    "highlightMessage": "Headquartered in Issaquah, Washington, Costco is the largest wholesale club operator in the United States, and the third-largest retailer in the U.S.",
+                    "descriptionDetectedLang": "en",
+                    "sectors": [
+                        "Retail & Wholesale"
+                    ]
+                },
+                {
+                    "name": "Walmart",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/9c80885fef258045d6217203814f0e34",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/b2a69225091012f43c572d2cfc55c03a",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.4,
+                    "reviewsCount": 281509,
+                    "reviewsUrl": "/cmp/Walmart/reviews",
+                    "jobsUrl": "/cmp/Walmart/jobs",
+                    "companyUrl": "/cmp/Walmart",
+                    "highlightMessage": "Headquartered in Bentonville, Arkansas, Walmart is a multinational corporation that operates the largest chain of department stores globally.",
+                    "descriptionDetectedLang": "en",
+                    "sectors": [
+                        "General Merchandise & Superstores"
+                    ]
+                },
+                {
+                    "name": "Babbletype",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/8318bc6707000b31d96bed04efcd06a0",
+                    "companySize": "ERv1_11_50",
+                    "rating": 3.4,
+                    "reviewsCount": 60,
+                    "reviewsUrl": "/cmp/Babbletype/reviews",
+                    "jobsUrl": "/cmp/Babbletype/jobs",
+                    "companyUrl": "/cmp/Babbletype",
+                    "sectors": [
+                        "Translation & Linguistic Services"
+                    ]
+                },
+                {
+                    "name": "McDonald's",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/0e457df540a8772859744989098fb86f",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/dcd8d0885cf972dd1bdd7f7ec71030b6",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.4,
+                    "reviewsCount": 260207,
+                    "reviewsUrl": "/cmp/McDonald's/reviews",
+                    "jobsUrl": "/cmp/McDonald's/jobs",
+                    "companyUrl": "/cmp/McDonald's",
+                    "highlightMessage": "McDonald's is the largest chain of fast food restaurants in the world - join us today!",
+                    "descriptionDetectedLang": "",
+                    "sectors": [
+                        "Restaurants & Cafes"
+                    ]
+                },
+                {
+                    "name": "FedEx",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/0ae03351faee7933baedf2f0f6f19e98",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/326ca44d91e8af85a8cf9eeb05e76eb6",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.5,
+                    "reviewsCount": 63115,
+                    "reviewsUrl": "/cmp/FedEx/reviews",
+                    "jobsUrl": "/cmp/FedEx/jobs",
+                    "companyUrl": "/cmp/FedEx",
+                    "highlightMessage": "Headquartered in Memphis, US, FedEx is a global delivery service company that has changed the way the world moves packages.",
+                    "descriptionDetectedLang": "en",
+                    "sectors": [
+                        "Shipping & Trucking"
+                    ]
+                },
+                {
+                    "name": "Microworkers",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/44ef5ca0922effb5be14bd3a867baf43",
+                    "rating": 4.7,
+                    "reviewsCount": 102,
+                    "reviewsUrl": "/cmp/Microworkers/reviews",
+                    "jobsUrl": "/cmp/Microworkers/jobs",
+                    "companyUrl": "/cmp/Microworkers",
+                    "sectors": [
+                        "Software Development"
+                    ]
+                },
+                {
+                    "name": "Target",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/91eef14f4e4990f23139c258d955b0da",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/f8150d2917eb9ff220a5a9ea7440c124",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.5,
+                    "reviewsCount": 81149,
+                    "reviewsUrl": "/cmp/Target/reviews",
+                    "jobsUrl": "/cmp/Target/jobs",
+                    "companyUrl": "/cmp/Target",
+                    "highlightMessage": "As a Fortune 50 company with more than 400,000 team members worldwide, Target is an iconic brand and one of America's leading retailers. ",
+                    "descriptionDetectedLang": "en",
+                    "sectors": [
+                        "General Merchandise & Superstores"
+                    ]
+                },
+                {
+                    "name": "UPS",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/93754eac1fb08c35bb7bf999072bee62",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/f08749cda4673040583ce455992822b1",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.7,
+                    "reviewsCount": 63586,
+                    "reviewsUrl": "/cmp/UPS/reviews",
+                    "jobsUrl": "/cmp/UPS/jobs",
+                    "companyUrl": "/cmp/UPS",
+                    "highlightMessage": "",
+                    "descriptionDetectedLang": "",
+                    "sectors": [
+                        "Shipping & Trucking"
+                    ]
+                },
+                {
+                    "name": "ALDI",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/603219686533b1e129da4a98997db62b",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/92d7c1ed1337d7891dbf895dd07871dc",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.2,
+                    "reviewsCount": 15634,
+                    "reviewsUrl": "/cmp/Aldi/reviews",
+                    "jobsUrl": "/cmp/Aldi/jobs",
+                    "companyUrl": "/cmp/Aldi",
+                    "highlightMessage": "We're ALDI, one of the nation’s favorite grocery stores.",
+                    "descriptionDetectedLang": "",
+                    "sectors": [
+                        "Grocery Stores"
+                    ]
+                },
+                {
+                    "name": "Kroger",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/df6ff70f35baea24c6f6433ad32b80fc",
+                    "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/31ba9f5f30b2bb57f38e552080f36210",
+                    "companySize": "ERv1_10000_PLUS",
+                    "rating": 3.3,
+                    "reviewsCount": 41325,
+                    "reviewsUrl": "/cmp/Kroger-54356a75/reviews",
+                    "jobsUrl": "/cmp/Kroger-54356a75/jobs",
+                    "companyUrl": "/cmp/Kroger-54356a75",
+                    "highlightMessage": "At Kroger, we Feed Your Future.",
+                    "descriptionDetectedLang": "",
+                    "sectors": [
+                        "Retail & Wholesale"
+                    ]
+                }
+            ]
+        }

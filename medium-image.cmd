@@ -1,0 +1,1 @@
+node -r ts-node/register/transpile-only src/medium/image_downloader.ts

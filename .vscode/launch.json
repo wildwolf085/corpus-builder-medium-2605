@@ -2,6 +2,20 @@
     "version": "0.2.0",
     "configurations": [
       {
+        "name": "indeed-company",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "node",
+        "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
+  
+        "args": ["src/indeed/company.ts", "--test"],
+        "console": "integratedTerminal", 
+        "outputCapture": "std",
+        "cwd": "${workspaceRoot}",
+        "internalConsoleOptions": "openOnSessionStart",
+        "skipFiles": ["<node_internals>/**", "node_modules/**"]
+      },
+      {
         "name": "crawl",
         "type": "node",
         "request": "launch",

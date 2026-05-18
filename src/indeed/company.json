@@ -1,0 +1,2181 @@
+{
+    "aboutSectionViewModel": {
+        "aboutCeo": {
+            "name": "Tom Arseneault",
+            "photoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/512x512/350b597067154f5eb3ab4b009ca14148",
+            "photoUrl48": "https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/48x48/350b597067154f5eb3ab4b009ca14148",
+            "photoUrl96": "https://d2q79iu7y748jz.cloudfront.net/s/_ceophoto/96x96/350b597067154f5eb3ab4b009ca14148"
+        },
+        "aboutCompany": {
+            "ceoApproval": 60,
+            "description": "At BAE Systems, we provide some of the world's most advanced, technology-led defense, aerospace and security solutions. We develop, engineer, manufacture, and support products, services and systems to deliver military capability, protect national security and people, and keep critical information and infrastructure secure. \n\nMeaningful. Empowering. Remarkable. That’s a career at BAE Systems.\n \nImproving the future and protecting lives is an ambitious mission, but it’s what we do at BAE Systems. Working here means using your passion and ingenuity where it counts – defending national security with breakthrough technology, superior products, and intelligence solutions. As you develop the latest technology and defend national security, you will continually hone your skills on a team—making a big impact on a global scale. At BAE Systems, you’ll find a rewarding career that truly makes a difference.",
+            "employeeRange": "ERv1_10000_PLUS",
+            "founded": 1999,
+            "headquartersLocation": {
+                "address": "Falls Church, VA"
+            },
+            "industry": "Aerospace & Defense",
+            "name": "BAE Systems USA",
+            "revenue": "RRv1_OVER_10B",
+            "sectorNames": [
+                "Aerospace & Defense"
+            ],
+            "websiteUrl": {
+                "text": "BAE Systems USA website",
+                "url": "https://jobs.baesystems.com"
+            }
+        }
+    },
+    "baseUrl": "/cmp/BAE-Systems-USA",
+    "breadcrumbs": {
+        "breadcrumbs": [
+            {
+                "name": "Companies",
+                "noFollow": false,
+                "translate": true,
+                "url": "https://www.indeed.com/companies"
+            },
+            {
+                "name": "Aerospace & Defense",
+                "noFollow": false,
+                "translate": true,
+                "url": "https://www.indeed.com/companies/best-Aerospace-&-Defense-companies"
+            },
+            {
+                "name": "BAE Systems USA",
+                "noFollow": false,
+                "translate": false
+            }
+        ]
+    },
+    "companyName": "BAE Systems USA",
+    "companyPageFooter": {
+        "enabledToShowUserFeedbackForm": false,
+        "encodedFccId": "c6f2f29ab960af6c",
+        "similarCompanies": {
+            "companyName": "BAE Systems USA",
+            "compareCompanyList": [
+                {
+                    "companyName": "BAE Systems",
+                    "description": "At BAE Systems, we provide some of the world's most advanced, technology-led defense, aerospace and security solutions. We develop, engineer, manufacture, and support products, services and systems to deliver military capability, protect national security and people, and keep critical information and infrastructure secure. \r\n\r\nMeaningful. Empowering. Remarkable. That’s a career at BAE Systems.\r\n \r\nImproving the future and protecting lives is an ambitious mission, but it’s what we do at BAE Systems. Working here means using your passion and ingenuity where it counts – defending national security with breakthrough technology, superior products, and intelligence solutions. As you develop the latest technology and defend national security, you will continually hone your skills on a team—making a big impact on a global scale. At BAE Systems, you’ll find a rewarding career that truly makes a difference.",
+                    "employerKey": "8fbcac1290de2ee4",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-BAE-Systems-c6f2f29ab960af6c-8fbcac1290de2ee4",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/1ec8605721e6e5873e4c865a5882df1d",
+                    "noFollow": false,
+                    "rating": 3.8,
+                    "reviewCount": 1392,
+                    "snapshotLink": "/cmp/BAE-Systems"
+                },
+                {
+                    "companyName": "Raytheon",
+                    "description": "Raytheon, an RTX business, creates next-generation defense solutions that are smarter, faster and better than previously thought possible. We specialize in integrated air and missile defense, advanced sensors, space-based systems, hypersonics, effectors and cyber solutions.",
+                    "employerKey": "72a0dc9ca3bfaace",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Raytheon-c6f2f29ab960af6c-72a0dc9ca3bfaace",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/9d37779ba08862de15d9853b90c89b0c",
+                    "noFollow": false,
+                    "rating": 3.9,
+                    "reviewCount": 5271,
+                    "snapshotLink": "/cmp/Raytheon"
+                },
+                {
+                    "companyName": "L3Harris",
+                    "description": "L3Harris is dedicated to recruiting and developing high-performing talent who are passionate about what they do. Our employees are unified in a shared dedication to our customers’ mission and quest for professional growth. L3Harris provides an inclusive, engaging environment designed to empower employees and promote work-life success. Fundamental to our culture is an unwavering focus on values, dedication to our communities, and commitment to excellence in everything we do.\n\nL3Harris is the Trusted Disruptor in defense tech. With customers’ mission-critical needs always in mind, our employees deliver end-to-end technology solutions connecting the space, air, land, sea and cyber domains in the interest of national security.",
+                    "employerKey": "2dd9d24593bb99ad",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-L3harris-c6f2f29ab960af6c-2dd9d24593bb99ad",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/6a6c9f075b48a5898354e5f275c43a33",
+                    "noFollow": false,
+                    "rating": 4.1,
+                    "reviewCount": 5823,
+                    "snapshotLink": "/cmp/L3harris"
+                },
+                {
+                    "companyName": "Northrop Grumman",
+                    "description": "Northrop Grumman is a leading global aerospace and defense technology company. Our pioneering solutions equip out customers with the capabilities they need to connect and protect the world and push the boundaries of human exploration across the universe. Driven by a shared purpose to solve our customers’ toughest problems, our nearly 100,000 employees define possible every day. \n\n© 2025 Northrop Grumman is an Equal Opportunity Employer, making decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, age, veteran status, disability, or any other protected class. For our complete EEO and pay transparency statement, please visit http://www.northropgrumman.com/EEO. U.S. Citizenship is required for all positions with a government clearance and certain other restricted positions.",
+                    "employerKey": "3e8562386cf03d35",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Northrop-Grumman-c6f2f29ab960af6c-3e8562386cf03d35",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/840ef038663bcfde1befff5745fded3e",
+                    "noFollow": false,
+                    "rating": 4,
+                    "reviewCount": 7535,
+                    "snapshotLink": "/cmp/Northrop-Grumman"
+                },
+                {
+                    "companyName": "Lockheed Martin",
+                    "description": "The F-35, PAC-3, and the GOES weather satellite...\r\n\r\nWhat do all of these technologies have in common, you might ask?\r\n\r\nTalented people, plus a company culture that isn't afraid to get things done.\r\n\r\nAt Lockheed Martin, you'll be able to solve a broad range of issues, covering everything from national security to environmental protection, supported not only by our extensive resources, but also a long legacy of getting things done.\r\n\r\nMost importantly, you will work in an atmosphere that encourages you to explore new ideas. Guided by established scientific, technological, business and military leaders on a daily basis, a career at Lockheed Martin truly means unprecedented impact on the future.\r\n\r\nJoin us at Lockheed Martin. Your mission is ours.\r\n\r\nWe apply our passion for purposeful innovation to keep people safe and solve the world's most complex challenges. We help employees experience a mission that matters through: Mission-Focused Innovation; Foundational Values; Diverse Career Opportunities with Meaningful Work; Your Health, Your Wealth, Your Life; and Empowered to Be Your Best. \r\n",
+                    "employerKey": "ce4d979bf9c3c5f3",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Lockheed-Martin-c6f2f29ab960af6c-ce4d979bf9c3c5f3",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/debbff68624041821d0c56fbccbcc330",
+                    "noFollow": false,
+                    "rating": 4,
+                    "reviewCount": 9974,
+                    "snapshotLink": "/cmp/Lockheed-Martin"
+                },
+                {
+                    "companyName": "Kratos Defense",
+                    "description": "",
+                    "employerKey": "08be48fd858cdc89",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Kratos-Defense-c6f2f29ab960af6c-08be48fd858cdc89",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/4da07d3429951cda5c65f3a22646f014",
+                    "noFollow": false,
+                    "rating": 3.3,
+                    "reviewCount": 194,
+                    "snapshotLink": "/cmp/Kratos-Defense"
+                },
+                {
+                    "companyName": "Collins Aerospace",
+                    "description": "Collins Aerospace, an RTX business, is a leader in technologically advanced and intelligent solutions for the global aerospace and defense industry. Collins Aerospace has the extensive capabilities, comprehensive portfolio and broad expertise to solve customers’ toughest challenges and to meet the demands of a rapidly evolving global market.\r\n",
+                    "employerKey": "2344c86c57af3e29",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Collins-Aerospace-c6f2f29ab960af6c-2344c86c57af3e29",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/9d37779ba08862de15d9853b90c89b0c",
+                    "noFollow": false,
+                    "rating": 3.6,
+                    "reviewCount": 3888,
+                    "snapshotLink": "/cmp/Collins-Aerospace"
+                },
+                {
+                    "companyName": "Elbit Systems of America",
+                    "description": "WHO WE ARE\r\n\r\nElbit Systems of America, LLC is a U.S.-based wholly owned subsidiary of Elbit Systems Ltd., a leading global source of innovative, technology based systems for diverse defense and commercial applications.\r\n\r\nMISSION: We provide innovative solutions that protect and save lives\r\n\r\nVISION: Create a safer and healthier world by being the trusted provider of choice for critical missions and needs.\r\n\r\nVALUES: Values represent the fundamental beliefs that define how we conduct business. They are principles that reflect the company’s culture and guide internal conduct, as well as relationships with customers, partners, and stakeholders.",
+                    "employerKey": "ff7932fa1613a3f9",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Elbit-Systems-of-America-c6f2f29ab960af6c-ff7932fa1613a3f9",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/c590ac3883e74f3c091c0d8766999d54",
+                    "noFollow": false,
+                    "rating": 3.5,
+                    "reviewCount": 148,
+                    "snapshotLink": "/cmp/Elbit-Systems-of-America"
+                },
+                {
+                    "companyName": "Booz Allen Hamilton",
+                    "description": "Booz Allen is an advanced technology company delivering outcomes with speed for America’s most critical defense, civil, and national security priorities. We build technology solutions using AI, cyber, and other cutting-edge technologies to advance and protect the nation and its citizens. By focusing on outcomes, we enable our people, clients, and their missions to succeed—accelerating the nation to realize our purpose: Empower People to Change the World®.",
+                    "employerKey": "8cc5972d7a49513a",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-Booz-Allen-Hamilton-c6f2f29ab960af6c-8cc5972d7a49513a",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/5321fe621dc57431b04fd562548e0adc",
+                    "noFollow": false,
+                    "rating": 3.9,
+                    "reviewCount": 2738,
+                    "snapshotLink": "/cmp/Booz-Allen-Hamilton"
+                },
+                {
+                    "companyName": "BAE Systems Digital Intelligence",
+                    "description": "BAE Systems Digital Intelligence Header\r\nBAE Systems Digital Intelligence is home to 4,800 digital, cyber and intelligence experts. We work collaboratively across 16 countries to collect, connect and understand complex data, so that governments, nation states, armed forces and commercial businesses can unlock digital advantage in the most demanding environments.\r\n\r\nAt BAE Systems Digital Intelligence, we believe that digital technology is the key to unlocking our customers’ advantage. By advancing digital technologies, we open doors to worlds of opportunities, together. We work across 6 main areas, Cyber, Defence, Delivery & Advisory, FinCrime, Intelligence and Space. Come visit us at the expo, or our website, to learn more about our opportunities.\r\n\r\n",
+                    "employerKey": "dce65b9b3559ffe4",
+                    "link": "/companies/compare/BAE-Systems-USA-vs-BAE-Systems-Digital-Intelligence-1-c6f2f29ab960af6c-dce65b9b3559ffe4",
+                    "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/7107a0c385cc17a9acfb536805e806a8",
+                    "noFollow": false,
+                    "rating": 3.7,
+                    "reviewCount": 113,
+                    "snapshotLink": "/cmp/BAE-Systems-Digital-Intelligence-1"
+                }
+            ],
+            "employerKey": "c6f2f29ab960af6c"
+        },
+        "stickyJobsTabLink": {
+            "jobsLink": "/cmp/BAE-Systems-USA/jobs"
+        }
+    },
+    "companyPageHeader": {
+        "auroraLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/bc9c4ced9826da0fb834e2058d7e8592",
+        "auroraLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/bc9c4ced9826da0fb834e2058d7e8592",
+        "brandColor": "#d0d3d4",
+        "claimedProfileSectionWidgetViewModel": {
+            "claimPageUrl": "/employer-tools/company/c6f2f29ab960af6c/claim",
+            "editPageUrl": "/employer-tools/company/c6f2f29ab960af6c/edit",
+            "profileClaimed": true,
+            "reviewsPageUrl": "/employer-tools/company/c6f2f29ab960af6c/empreviews",
+            "showClaimPageLink": true,
+            "showEditPageLink": false,
+            "showProblemReportLink": false
+        },
+        "companyHeader": {
+            "happinessGrade": "GOOD",
+            "happinessScore": 71,
+            "name": "BAE Systems USA",
+            "rating": 3.8,
+            "reviewCount": 3645,
+            "reviewCountFormatted": "3.6K",
+            "reviewsUrl": "/cmp/BAE-Systems-USA/reviews"
+        },
+        "followButton": {
+            "brandColor": "#d0d3d4",
+            "companyName": "BAE Systems USA",
+            "disclaimerRequired": false,
+            "encodedFccId": "c6f2f29ab960af6c",
+            "followSource": "acmeSnapshot",
+            "hashedCsrfToken": "81ae628c072fb1d08bfbf70b3a16d699",
+            "loggedIn": true
+        },
+        "fullEBHMarketingLink": "https://www.indeed.com/employers/branding-hub?hl=en&isid=cmp-product&ikw=banner&from=cmp-product-banner",
+        "headerImage": {
+            "headerAltText": "Text: BAE Systems, where purpose connects.",
+            "headerImageUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/980x200/ab90e6d2bb12d2ce27701fbc96581bb8",
+            "headerImageUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_headerimage/1960x400/ab90e6d2bb12d2ce27701fbc96581bb8",
+            "pageLanguage": "en"
+        },
+        "headerVideoUrl": "https://www.youtube.com/watch?v=hRRYSx9TCvU",
+        "isActiveEBAStatus": true,
+        "isEBHLocale": true,
+        "isPageEditor": false,
+        "logoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/96x96/bc9c4ced9826da0fb834e2058d7e8592",
+        "logoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/bc9c4ced9826da0fb834e2058d7e8592",
+        "pageName": "snapshot",
+        "reviewCompanyUrl": "https://www.indeed.com/survey/short?cid=c6f2f29ab960af6c&pkind=comp%3Aheader%3Awrite-a-review-button__targeted",
+        "showPremiumHeader": true,
+        "tabMenu": [
+            {
+                "name": "Snapshot",
+                "nofollow": false,
+                "selected": true,
+                "turnstileElement": "overview-tab",
+                "url": "/cmp/BAE-Systems-USA"
+            },
+            {
+                "name": "Why Join Us",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "about-tab",
+                "url": "/cmp/BAE-Systems-USA/about"
+            },
+            {
+                "count": "3.6K",
+                "name": "Reviews",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "reviews-tab",
+                "url": "/cmp/BAE-Systems-USA/reviews"
+            },
+            {
+                "count": "20.7K",
+                "name": "Salaries",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "salaries-tab",
+                "url": "/cmp/BAE-Systems-USA/salaries"
+            },
+            {
+                "count": "1.6K",
+                "name": "Jobs",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "jobs-tab",
+                "url": "/cmp/BAE-Systems-USA/jobs"
+            },
+            {
+                "count": "68",
+                "name": "Q&A",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "qna-tab",
+                "url": "/cmp/BAE-Systems-USA/faq"
+            },
+            {
+                "name": "Interviews",
+                "nofollow": false,
+                "selected": false,
+                "turnstileElement": "interviews-tab",
+                "url": "/cmp/BAE-Systems-USA/interviews"
+            }
+        ]
+    },
+    "faqSectionViewModel": {
+        "disableMarkup": false,
+        "faqs": [
+            {
+                "answerLinks": [],
+                "answerText": "Yes, BAE Systems USA has 1,568 open jobs. Before applying to BAE Systems USA, it’s a good idea to research the company, and read reviews from employees working there.",
+                "questionText": "Is BAE Systems USA hiring now?"
+            },
+            {
+                "answerLinks": [],
+                "answerText": "People have reported that the interview at BAE Systems USA is medium. The interview process takes about two weeks. People have rated the overall interview experience as favorable.",
+                "questionText": "Is it hard to get a job at BAE Systems USA?"
+            },
+            {
+                "answerLinks": [],
+                "answerText": "The interview process takes about two weeks. Overall, the interview experience is rated as favorable.",
+                "questionText": "What is the hiring process at BAE Systems USA?"
+            },
+            {
+                "answerLinks": [],
+                "answerText": "The CEO of BAE Systems USA is Tom Arseneault. Ratings from 1,938 employees, gives Tom Arseneault an approval rating of 60%.",
+                "questionText": "Who is the CEO of BAE Systems USA?"
+            },
+            {
+                "answerLinks": [],
+                "answerText": "BAE Systems USA has more than 10,000 employees.",
+                "questionText": "How many employees does BAE Systems USA have?"
+            },
+            {
+                "answerLinks": [],
+                "answerText": "The headquarters for BAE Systems USA are in Falls Church, VA.",
+                "questionText": "Where are BAE Systems USA headquarters?"
+            }
+        ]
+    },
+    "gigEmployer": false,
+    "happinessModule": {
+        "compositeScore": 71,
+        "gradeBoundaries": [
+            76,
+            72,
+            69,
+            65
+        ],
+        "individualRatings": [
+            {
+                "boundaries": [
+                    77,
+                    72,
+                    68,
+                    64
+                ],
+                "caption": "How enjoyable people find their day-to-day life at work",
+                "category": "Happiness",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_HAPPINESS",
+                "score": 71,
+                "showIcon": true
+            },
+            {
+                "boundaries": [
+                    82,
+                    77,
+                    73,
+                    69
+                ],
+                "caption": "How meaningful people find their work",
+                "category": "Purpose",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_PURPOSE",
+                "score": 76,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    82,
+                    77,
+                    74,
+                    70
+                ],
+                "caption": "How accomplished people feel at work",
+                "category": "Achievement",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_ACHIEVE",
+                "score": 75,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    81,
+                    76,
+                    72,
+                    68
+                ],
+                "caption": "How encouraged people feel to learn new skills",
+                "category": "Learning",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_LEARN",
+                "score": 75,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    81,
+                    76,
+                    72,
+                    68
+                ],
+                "caption": "How valued people feel by their coworkers",
+                "category": "Appreciation",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_APPRECIATE",
+                "score": 74,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    76,
+                    72,
+                    68,
+                    64
+                ],
+                "caption": "How fair people feel they are paid",
+                "category": "Compensation",
+                "grade": "GREAT",
+                "questionCode": "HAPPINESS_PAIDFAIR",
+                "score": 74,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    80,
+                    75,
+                    71,
+                    67
+                ],
+                "caption": "How accommodating people find their work schedule",
+                "category": "Flexibility",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_FLEX",
+                "score": 73,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    80,
+                    75,
+                    71,
+                    67
+                ],
+                "caption": "How encouraged people feel at work",
+                "category": "Support",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_SUPPORT",
+                "score": 72,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    78,
+                    72,
+                    68,
+                    64
+                ],
+                "caption": "How respectful people find their work environment",
+                "category": "Inclusion",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_INCLUSIVE",
+                "score": 71,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    79,
+                    74,
+                    70,
+                    66
+                ],
+                "caption": "How energized people feel by their work",
+                "category": "Energy",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_ENERGIZED",
+                "score": 70,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    75,
+                    70,
+                    66,
+                    62
+                ],
+                "caption": "How content people feel with the way things are at work\n",
+                "category": "Satisfaction",
+                "grade": "GREAT",
+                "questionCode": "HAPPINESS_SATISFIED",
+                "score": 70,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    74,
+                    70,
+                    67,
+                    63
+                ],
+                "caption": "How manageable people find their work stress\n",
+                "category": "Stress-free",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_STRESS",
+                "score": 69,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    76,
+                    71,
+                    67,
+                    62
+                ],
+                "caption": "How supportive people find their manager",
+                "category": "Management",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_MANAGER",
+                "score": 69,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    76,
+                    70,
+                    66,
+                    61
+                ],
+                "caption": "How safe people feel around their coworkers",
+                "category": "Trust",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_TRUST",
+                "score": 68,
+                "showIcon": false
+            },
+            {
+                "boundaries": [
+                    75,
+                    70,
+                    66,
+                    61
+                ],
+                "caption": "How accepted people feel at work",
+                "category": "Belonging",
+                "grade": "GOOD",
+                "questionCode": "HAPPINESS_BELONGING",
+                "score": 67,
+                "showIcon": false
+            }
+        ],
+        "numberOfResponses": 1274,
+        "numberOfResponsesFormatted": "1,274",
+        "surveyStatements": [
+            {
+                "category": "Happiness",
+                "surveyStatement": "I feel happy at work most of the time."
+            },
+            {
+                "category": "Compensation",
+                "surveyStatement": "I am paid fairly for my work."
+            },
+            {
+                "category": "Achievement",
+                "surveyStatement": "I am achieving most of my goals at work."
+            },
+            {
+                "category": "Appreciation",
+                "surveyStatement": "There are people at work who appreciate me as a person."
+            },
+            {
+                "category": "Energy",
+                "surveyStatement": "In most of my work tasks, I feel energized."
+            },
+            {
+                "category": "Support",
+                "surveyStatement": "There are people at work who give me support and encouragement."
+            },
+            {
+                "category": "Purpose",
+                "surveyStatement": "My work has a clear sense of purpose."
+            },
+            {
+                "category": "Learning",
+                "surveyStatement": "I often learn something at work."
+            },
+            {
+                "category": "Inclusion",
+                "surveyStatement": "My work environment feels inclusive and respectful of all people."
+            },
+            {
+                "category": "Flexibility",
+                "surveyStatement": "My work has the time and location flexibility I need."
+            },
+            {
+                "category": "Trust",
+                "surveyStatement": "I can trust people in my company."
+            },
+            {
+                "category": "Belonging",
+                "surveyStatement": "I feel a sense of belonging in my company."
+            },
+            {
+                "category": "Management",
+                "surveyStatement": "My manager helps me succeed."
+            },
+            {
+                "category": "Satisfaction",
+                "surveyStatement": "Overall, I am completely satisfied with my job."
+            },
+            {
+                "category": "Stress-free",
+                "surveyStatement": "I don't feel stressed at work most of the time."
+            }
+        ]
+    },
+    "interviewsSectionViewModel": {
+        "formattedCount": "718",
+        "interviewQuestions": {
+            "answers": [
+                {
+                    "answerText": {
+                        "languageTag": "en",
+                        "text": "Background example questions, typical \"tell me when you did this or that and how you reacted or solved the problem\". Just find examples ahead of schedule, maybe study the STAR method and practice."
+                    },
+                    "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1bnplf0qmaqgkdqo&answerUid=1jd9orlmtggh0801",
+                    "jobTitle": "OA 2",
+                    "location": "",
+                    "submissionDate": "December 24, 2025"
+                },
+                {
+                    "answerText": {
+                        "languageTag": "en",
+                        "text": "Ask what I did a my job now"
+                    },
+                    "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1bnplf0qmaqgkdqo&answerUid=1ecbdkljsp1lq800",
+                    "jobTitle": "Assmbler",
+                    "location": "At the plant york pa",
+                    "submissionDate": "July 3, 2020"
+                },
+                {
+                    "answerText": {
+                        "languageTag": "en",
+                        "text": "Previous work experience, career goals, salary requirements, background security questions."
+                    },
+                    "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1bnplf0qmaqgkdqo&answerUid=1e0dkh4014sht800",
+                    "jobTitle": "Analyst",
+                    "location": "Phone",
+                    "submissionDate": "February 6, 2020"
+                }
+            ],
+            "companyName": "BAE Systems USA",
+            "interviewQuestionURL": "/cmp/BAE-Systems-USA/faq/what-questions-did-they-ask-during-your-interview-at-bae-systems-usa?quid=1bnplf0qmaqgkdqo"
+        },
+        "summaryStory": {
+            "anyDataAvailable": true,
+            "difficultyCard": {
+                "answerCount": 718,
+                "result": "MEDIUM"
+            },
+            "durationCard": {
+                "answerCount": 608,
+                "text": "About two weeks"
+            },
+            "experienceCard": {
+                "answerCount": 371,
+                "result": "FAVORABLE"
+            }
+        }
+    },
+    "jobTitleSectionViewModel": {
+        "jobTitles": [
+            {
+                "displayName": "Analyst",
+                "jobCount": 78,
+                "reviewRating": 3.6282050609588623,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Analyst"
+            },
+            {
+                "displayName": "Electronics Technician",
+                "jobCount": 57,
+                "reviewRating": 3.5964913368225098,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Electronics-Technician"
+            },
+            {
+                "displayName": "Intelligence Analyst",
+                "jobCount": 56,
+                "reviewRating": 3.7857143878936768,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Intelligence-Analyst"
+            },
+            {
+                "displayName": "Welder",
+                "jobCount": 54,
+                "reviewRating": 3.3518519401550293,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Welder"
+            },
+            {
+                "displayName": "Engineer",
+                "jobCount": 51,
+                "reviewRating": 3.1960785388946533,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Engineer"
+            },
+            {
+                "displayName": "Assembler",
+                "jobCount": 50,
+                "reviewRating": 3.740000009536743,
+                "url": "/cmp/BAE-Systems-USA/job-titles/Assembler"
+            }
+        ]
+    },
+    "jobsSectionViewModel": {
+        "baseUrl": "/cmp/BAE-Systems-USA",
+        "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/bc9c4ced9826da0fb834e2058d7e8592",
+        "companyName": "BAE Systems USA",
+        "jobLocations": [
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Nashua,-NH",
+                "jobCount": 337,
+                "name": "Nashua, NH"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Merrimack,-NH",
+                "jobCount": 91,
+                "name": "Merrimack, NH"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Hudson,-NH",
+                "jobCount": 79,
+                "name": "Hudson, NH"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Boulder,-CO",
+                "jobCount": 56,
+                "name": "Boulder, CO"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Westminster,-CO",
+                "jobCount": 55,
+                "name": "Westminster, CO"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Broomfield,-CO",
+                "jobCount": 49,
+                "name": "Broomfield, CO"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Endicott,-NY",
+                "jobCount": 46,
+                "name": "Endicott, NY"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Fort-Wayne,-IN",
+                "jobCount": 45,
+                "name": "Fort Wayne, IN"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Austin,-TX",
+                "jobCount": 45,
+                "name": "Austin, TX"
+            },
+            {
+                "canonicalUrl": "https://www.indeed.com/cmp/BAE-Systems-USA/jobs/l-Hill-AFB,-UT",
+                "jobCount": 43,
+                "name": "Hill AFB, UT"
+            }
+        ],
+        "jobTitles": [
+            {
+                "displayName": "Principal Software Engineer",
+                "jobCount": 51,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Principal-Software-Engineer"
+            },
+            {
+                "displayName": "System Engineer",
+                "jobCount": 41,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-System-Engineer"
+            },
+            {
+                "displayName": "Senior Program Manager",
+                "jobCount": 39,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Program-Manager"
+            },
+            {
+                "displayName": "Senior System Engineer",
+                "jobCount": 32,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-System-Engineer"
+            },
+            {
+                "displayName": "Program Manager",
+                "jobCount": 27,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Program-Manager"
+            },
+            {
+                "displayName": "Senior Electrical Engineer",
+                "jobCount": 23,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Electrical-Engineer"
+            },
+            {
+                "displayName": "Electrical Engineer",
+                "jobCount": 22,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Electrical-Engineer"
+            },
+            {
+                "displayName": "Mechanical Engineer",
+                "jobCount": 18,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Mechanical-Engineer"
+            },
+            {
+                "displayName": "Senior Principal",
+                "jobCount": 17,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Principal"
+            },
+            {
+                "displayName": "Senior Software Engineer",
+                "jobCount": 17,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Software-Engineer"
+            },
+            {
+                "displayName": "Software Engineer",
+                "jobCount": 17,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Software-Engineer"
+            },
+            {
+                "displayName": "Network Engineer",
+                "jobCount": 16,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Network-Engineer"
+            },
+            {
+                "displayName": "Senior Hardware Engineer",
+                "jobCount": 16,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Hardware-Engineer"
+            },
+            {
+                "displayName": "Supplier Quality Engineer",
+                "jobCount": 16,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Supplier-Quality-Engineer"
+            },
+            {
+                "displayName": "Systems Administrator",
+                "jobCount": 16,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Systems-Administrator"
+            },
+            {
+                "displayName": "Test Engineer",
+                "jobCount": 15,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Test-Engineer"
+            },
+            {
+                "displayName": "Senior Mechanical Engineer",
+                "jobCount": 14,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Mechanical-Engineer"
+            },
+            {
+                "displayName": "Senior Rf Engineer",
+                "jobCount": 13,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Senior-Rf-Engineer"
+            },
+            {
+                "displayName": "Developer II",
+                "jobCount": 12,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Developer-II"
+            },
+            {
+                "displayName": "Manufacturing Engineer",
+                "jobCount": 12,
+                "url": "/cmp/BAE-Systems-USA/jobs/q-Manufacturing-Engineer"
+            }
+        ],
+        "location": "",
+        "locationAllJobsUrl": "/cmp/BAE-Systems-USA/jobs",
+        "locationJobs": [
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfr0QIInrNu8ch9fA2sDEPayh1r72GDC0DzTxmGHxyy3ndCFNeL0RU0R4oH7tQ7ZBj7Wnyj-83cs90AHclTx9XJu7Sr2GdUOh7KKAjV-hOUJ9qaTonZyc-qoDeoRP5nAIGTWiPR-VowOUYm8gd7HyMv3yqZQztq-YuKZ0eurLqTCpXC0tLyQzxcF4ExH_s29G3kop7mgJcAdg1E0XG0gsmO2tzr2NowHJ0oPOCnJOyhUUo_nnz470jNQXp0fPNt5BhAoZOy2NH7jh5JODiXac1QKx2pfyh6dqdcPFMgPOQ-zLa4mjcCfRj0pFCifrzPD9vlHRHGiZEayuKek4b6dEN4SjVY9dmViFfOlyEI9z5Y6Oax35tIQwZroNwudd9bPk8xrWlmgweVjR5SmaHDtN8x0FwTjBiBOTaDlvQyqDi_nE%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "12 days ago",
+                "indeedApply": false,
+                "jobKey": "20eaf0f9c1d4221a",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Greenlawn, NY",
+                "salarySnippet": "$52,841 - $84,545 a year",
+                "sponsored": false,
+                "title": "Assembler III",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=20eaf0f9c1d4221a"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrflym65QUCy93Z2_H1WvfxVKmILoPLzVzeuvi5oc6m-1vmLMdQakuSNcnVsiy4HYrQlb43FqV4sQB7EIUP6KxOTDoWrwL8VVzAdJfhmJOQ0q92pxifo6qSdcmLIMXOYM9ZN6WiqGjEGAyCqFKGY6Wb9p2xN1SmGq4eaDjCw3Itu_hzpAyYwpIUI_7t7ZpbyEIUszn-Pc4uJN15gr_5LnjUXE0NqZNQARA3ra2zX074c3U1ntBrqAiuCwa7Vaw8O0tg0E1RMKEM2jrs7aZj-fb3bYUakIYyaHb_v_jMloePkY0tylKHsbwe-TiUvGWJUdOKyo4EuT6CK-tvemYfVU3-daXjSkJjj71jZpoouEz102NE-KXy5mg91nrl-UZJ4lPYtnWoRlq_6eGHHeOpanbzHNEPlpbgaGYhOYj6vfAXXvY%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "25 days ago",
+                "indeedApply": false,
+                "jobKey": "3d954bf55464c9d8",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Endicott, NY",
+                "salarySnippet": "$44,033 - $70,454 a year",
+                "sponsored": false,
+                "title": "CAS Aftermarket Assembler III",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=3d954bf55464c9d8"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrflNp_NoYhsXQ1QTQkodoHLXYH1OWABjX_PLAMwmLEw0_9KX7mS4VsHVq_ybq3zUD5MRo5zDjyvw_kZ8QNJ9K0pYZ2E3-Djohvw41OBFJwtaLWkfT4JXNu5FqYl_o72ppVsC9Sqgfq2nxRoLUgR6Kaisrb_XEtr7NUDQG-Z5z1J4ybPedIZvM1PoSwjHln6TDutvNngQ5V7UttJbN5utQ3cmKGlw1tMQVsCmavFsCx3jXM1_I_LD_QhbleJmliMGQroer3dvh9trVQ-qh26rVE6DbAD0xR8RiACaYkWQSfLqCS1I47TBfVmHDfcLaKrPE1Fw9KOozEZZsKD5LYaMsGOLLubrQTEpakm2Ng0kEfgj5tgs6-ZbsAPTWzxKYiel_uRhgIIC8TEnOkpGhLP5xCZP9X1_cQVZJ_fwmEt10iBw8%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "b90145d415771a1f",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Fort Walton Beach, FL",
+                "salarySnippet": "$46,898 - $75,035 a year",
+                "sponsored": false,
+                "title": "Manufacturing Technician (Radar)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=b90145d415771a1f"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrf_UnOVg0Y6AiF3eicqKkq7L4c157BQG1wbapuC6qIYD53vXEZl-mqyg1WvAr1rishcR2ZMkVviPOiQnoLLSJCNgKOKLPP6bKmaAK_yVv9IbILoEdOjiW0ilpGS5fw_ItbXhsj1WmPOdYdLPF8YjuO-sCgQqRnLnGJUptGFHXgkNIixXsbML9AA7AMp9rRZEbQq1UGuHz3hs4Sc6FlOZtSOBEz4FXXu1J5mK4YyYxtZqmsfjCt_c8WDIty5v0u3QdL5vPQFhZjdFVnbsDq2ikB4wwByzq9lTwAcSlvC5x0ZQlMGf2b-rqTSbcZSvaV4utJSjqYU5uBtCccpM02uKWhpD2S95tu6Laj8hPehxU2QzRulpg4AjrYor_rL_xm4B5VCbQ9khwRbhHgI2UMAPtozFtBQKoafSO2twB0kW3VNTg%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "6f67022450debd6d",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Fort Walton Beach, FL",
+                "salarySnippet": "$29,093 - $46,550 a year",
+                "sponsored": false,
+                "title": "Production Operator (Electronics Assembly)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=6f67022450debd6d"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfxH_G-Ie69D1CARzkJ1JhAr2ZSONmGop7VZlFRNEnIAbTI2lsaIahSrJRGiQ4gtBcXcggD5TvIdAYz-1mBdrv5Nxxzi_I_D143mi63lDLRLGLYDje5YihJWZlRY1XGU5FHeH0XG_ME46HhrHvTJZEqfIp3BHsW0onyuhBwbfNhHnH89ptrxluJOST7_yXpSgUy8verHLWZspjuN7-NWLxZUiLG4Wl5SPZZK_1bJoXP3nBC4t1DmUL9bp8ChM5cIefInWV-aGl0T0H4eW8odgDLdwXJvMdRMuXI41BKRMsvXHOo3LaiYny6siDiJ-JvwSIZD1uhO9K4Rt8ho5bcm7mM5Ea08rqXET43p4-YOxnxsQLLq2owf5xE9Ry9GILRSiP31vmX4JUG43w4K7O6jaRhn3HbvTyRxv0WzII8CpVty8%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "5 days ago",
+                "indeedApply": false,
+                "jobKey": "3fe82f45d4cd0467",
+                "jobTypes": [],
+                "location": "California, MD",
+                "salarySnippet": "$28.79 an hour",
+                "sponsored": false,
+                "title": "SCA Engineering Technician III (Cable Assembly / Fabrication)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=3fe82f45d4cd0467"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrf_UnOVg0Y6Aj0QK1YvNPkMn14aV0dKUjL4_a8igMLmVLucEBE7EoGj2SLRG9SKi0FSVBcNlvyRcIzqDa-f7zBux58KWZL4nUKY1la12HkycUuVAZ0FLftlkl4c6dc4Q5kbyGqiTS17QyZVwgsQKueFN3pVYzC-qkR5xXr4qfLQG_r8iRE3QIHXnOTE8ZerjGQQg89LJfhprNY8_wXhWdshdG2ltMDQBy3dxOUmW5ykk9IFN3c0bGOL_SZo5LS3a2xA1OGlhFse4SV8Sz6Ao1rQMjAeV-fQpvMIWAWp9LFN7k1GtH2LCtNeWf7b2E54sDh8tae7clxW3h_wxnR0NNMy6upvRV1u8dUwn3zzlR5XmYqcgyL_0NRJO1supBiNb-kQ7bX7PFBRN46r5Ylw-ADz6ZIejEM7D_-b1XL_agvArQ%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "fa493f35a83eb6a9",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Endicott, NY",
+                "salarySnippet": "$32,326 - $51,722 a year",
+                "sponsored": false,
+                "title": "Assembler I Weekend Shift",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=fa493f35a83eb6a9"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfT4EB03c99FYch7CS4ekkai8vIQZoXTyXPv5ZQuNg5Z6WhgOHVhYRu5x4nwToxHnvbl9fQX5WpbiHXcgo7zDJrXoTe2lCfuosnRL1ZA3cDciOOg2SmMKF0bUXdeQoWCKWN454FW5L_cLoBKbiAHIaNPVqEPsjgKNDjqx1QluxQ-PCJVcPXA4c29-ZUKmjIoH-52-6OMiwMo9n9SfYgfYQ_0tWG6S7-yBphIxkBODW40zwe2Qy2pF9jvQPZZq5467qA6W4E9QHtuTAp4_ZGSUKGGH03quSkUeWTgrUeB_a8vS1n1NFYGeR3VzlUfDQ1E5mye82kkcyQhgLM9udqKot2vBf2viomoJJGuYSNrePbNZXu7qmmc_4m5eYCRh00HQ7VVwzJav94WyUu5EQ8PMVJvZ-wiP_YMOrILBJThXImbw%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "25 days ago",
+                "indeedApply": false,
+                "jobKey": "744352273ede6fb0",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Nashua, NH",
+                "salarySnippet": "$41,844 - $66,952 a year",
+                "sponsored": false,
+                "title": "Electrical Assembler II",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=744352273ede6fb0"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfxH_G-Ie69D3po-ef9v2jKkkjW7ctNOETVkkUDM7P9_5BqP3Th3EgTipUWEUEo54t95kqEtR9PTK9LWC1q8wXDIx5kMyqrvZCT_VjVoDcdtZ054iIU4y3Cqfi1g5J3VfbV7c8_qS9NCOcFWJa6Xrc8WH_xyWmgw_LuNv-QgrwYr37YwPI3fqZ5HNxFKarka6FQVc-gwNyBKdO1z2I_7vzuBlaFThAdQrqMwzj7Bjr6qYPboDqixVjS4qWcr6v4NgiUHHDGDWoVsbDbcm5kG6QXHOdjs0lALljPUUdIQM5rLW2pYicp0KurRXbovqXRsj9tE60o8k5eYu98C9_UkY-jsCUjVcrjm2MsM9VYjmxnyrVc2gZ3g4di4ADRz-oem_sookZelcyPmd7eeEjdoUHEuFWYHajBZboPE3Cw-owLMk%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "2 days ago",
+                "indeedApply": false,
+                "jobKey": "ea46b45f11bcf9c1",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "San Diego, CA",
+                "salarySnippet": "$61,360 - $93,662 a year",
+                "sponsored": false,
+                "title": "Material Handler",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=ea46b45f11bcf9c1"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfP8LFhj7JHsvjxV-u-PiIJ7XqqbghRQ2MfiQLeMhBaineOpjqvS_SWOKN4Q8cV4nbA5ICibAxcIVa1gEUeDdDbt57mFCoRiYUFZdKSUBJyF_OkvwTfBa3AgrQA4mWq4_QnKNa4w0NWXQ393Eeh7ZaQi3xq0kPNn8_8xy2O-eEviVdxfy-mpscRkA4tw68uJ5IV1cBkGsWVneK0S9dF65RqlVlmxYnMpptkGnzGe4VHox4A16wjgHiahWkSNs3cEeXS9ttEcc5UXnEiQL1ypG6DbTGknXjcVqzrU0Qgyx36l_kbTji7GnFQu4jn4ZbDWcaYJssZflsP7nuV_iMn1fwzhJNSrA3ZW9AAkdyWJ9LIcdXDrCGOA7UDVMSlGEKKwFb6nB6krMG8AYV6waqGGrgcXvzr9As9KKCQ88Et2yhVgs%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "b3523e109090d3a2",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Wayne, NJ",
+                "salarySnippet": "$45,649 - $73,038 a year",
+                "sponsored": false,
+                "title": "Electronic Assembler II First Shift",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=b3523e109090d3a2"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfr0QIInrNu8fzNUAFrsDsidgixAZxujS5tvhvly7yKxSSW6ZRu4rmVxkNahepNdLoVnL6j2-73REcQ3hZNL2WAQ3OGQlgybwa865NtXwSGPOXJuqSQfRm9NRbGdm5sTtLsyBHQ-euLQ_SDCWKQnmi_8o2c_TFJDRX16dqeV7GqoB4B3q_lUpveLtO4ewWeHJ6q_1C0nejs02UQ2ouxms6ngH_1i_UjkbjnwXrpiph0LTokZiTCKOlXm-Qxki9iNCci7oetmzmHFABRmrX5ks54hxKbcChvBZtNICw_Agu7DpEOKVAm-4IDIlSqxtyMIoqKen9Pg8-Z4RSJVN3s27FY-yspbrNDNiYYG11ZQ96CvrodC40wK8Z5HSEOrrPhA319FeCsqRHZK3aykjVNI51o6KYgbqzayz7x2Wn7hFXMz8%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "11 days ago",
+                "indeedApply": false,
+                "jobKey": "cff617b1583965e6",
+                "jobTypes": [],
+                "location": "Norfolk, VA",
+                "sponsored": false,
+                "title": "Marine Sandblaster/Painter",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=cff617b1583965e6"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfr0QIInrNu8fA6zCgQUNxY0L9_WenoW4FqvETrmBKMAjUHK7ByOtQJhw9Ha1Jdnndfn4LSg5vyTaISU70h8EOzDLwLz84-SANSnk3Bgu_RJYRAX33nkrC_5wCSXoWFfWzGrOxbzAvfnoZH1Vt57XTc3GLBhLVrIMd7qVgmF1jY3RN3pwZgVVk14s-dfaTPJxpPPEWpjDeX3Scd_qKWLsZSI8Jjlwvcp4pbocYScP_qYU6jHImLWwG7YPCqfRKhHZcUvUwWtyInK1GlFNK_L8vUB1aVXqUQf1NObqUSYNNGviEN_OL4arCPCUwl8fGjF_PRsIoT9Tl8Q76yR42r_btgMuiamkw-803JUTXz9LVbUetBVd9RohacgQKxsoKPAoUqUxgMsFguEEykBGTyoLyDAfloUy4Z3vtXx0Vdx1SlC4%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "12 days ago",
+                "indeedApply": false,
+                "jobKey": "2103b178edc24147",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Aiken, SC",
+                "salarySnippet": "$36,367 - $58,187 a year",
+                "sponsored": false,
+                "title": "Machining Operator 1",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=2103b178edc24147"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfeHsFlHhFIMU8KGhtoJAVV08kvitp9R6iRhFralXQz0gBClu0005FNVskLtdyHjlSfU9yP-IwvEF7dgbOQi4WF1gS9LKYBoBAKo2gUPPVGGQSYJedzjWkf-PymhAaTNH61yerL8LYP1e-oAwTjBRBhrQV23rmPHqiR4vlXa4irsQ0LUiRQGw_m6DfWvVuoPNVUosaBj8ik2ZptmaN-3OtGSyMrP-P6jONpHkpfEasCKQnohXG6g9yXmD9uUZwVdnD_ynX_wl07WCmdzPV7oEGGCd298adLB0J2z4PlWlxborohaSGH5e0aWoRlg2YytioV9WD2O99yl93LlnJiQHf9VxFF8ffmzoQPfPIFxBsSGB78YmgTsQaCTEM1C2ezW-WClFlnjOcCDBwIsx_WAHUBKcm21mNy6gUORwQRGApoGs%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "27870cf84f473d53",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Nashua, NH",
+                "salarySnippet": "$41,844 - $66,952 a year",
+                "sponsored": false,
+                "title": "Production Operator II (2nd Shift)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=27870cf84f473d53"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrf_UnOVg0Y6AjQJ3YQnuTNn2lxUK4w2EMlrwEh-3C1mLLdpwqqZM-7OiTsQGnN_ErxLo6VKjwnxYYLaiesLSLnBLwmZ4sIphkYJ2jTNiOuHd04d5LPxpiXNxCD_MvD4UCeXSUE1I8DDlJM0ZHSzTn4vh1f6g1arAq7KUmFDeVYTgM6xn6Rux_jbeyRKmB9lOQTSjW6hGyW6u3ycr8-_sI3b8UO45nuIYXacMKVesJZLUIhmXmc2LyqWwpe2pUQi_Jq_1QtqXReKh0eIBQWn-xSQ29kZ9E5OC3pmeVmjK-3E09EgSkHEN00oVzOU155pqrM1RuZs6EHIwlBaIJJEM_XdIPMfrKMVZ5yoUPq3epRC1IpsLxinCPebZWSQ-KRXME6rZEPQlRT-QgLl9QyNgzUwTt4XxHxUAUcn_v5UWKr4qo%3D&camk=rc7eyn_KGd8%3D&jsa=3827&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "a61885ece40e2e10",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Nashua, NH",
+                "salarySnippet": "$47,614 - $76,181 a year",
+                "sponsored": false,
+                "title": "Mechanical Technician 1st Shift",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=a61885ece40e2e10"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrf_UnOVg0Y6Ah9FbUVQ1YpTCZ3_MMtsh5qfiPHdxdSD652UuI5c9Z93-hL3w_lHbzIRaaoYrbk5BeLhhmco9tRllM6gBtuH_gfNwDAEMhtk3ihOHxL-sGQH8Gwst9le1WlvrffFCwZHlM1KqpARaxCdgpVCxsOGmw3g2gT8qs4Uc2P6CRBcLUn956TP6_sgl7ahvdf6cChOPXLOp8blLZmqgHviWKLn-71Vxq06yHuO4J79kqEtNQ40cMmq0fxM-vke8isZUuW4-yOJdw5hTUXQIwRBIay9Tjv2pd7fGal_jdfu1ezmkslNCbbkCB7J5qMFLA_sK1qs2upfDd_5cez0msJT3Yh3j3g9EfxHo8zdsDngFN-LxId1tGYxmpQ8H7SL1Ri1BseVZP0aHjCwPByKj9x9zVS6YBa3z0a_NUO63k%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "30+ days ago",
+                "indeedApply": false,
+                "jobKey": "1755b012de61570b",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Nashua, NH",
+                "salarySnippet": "$48,438 - $77,500 a year",
+                "sponsored": false,
+                "title": "Microwave Technician Weekend Day Shift",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=1755b012de61570b"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrflym65QUCy914F8ie278VYtIV1--a5GGf0JshUPyk-2AdVhg9wAwRhZT1Bc9_EqmDDmZN67oTOFLvwR7JCippEim1fOT88G8i8iYw4IbxuTwlpsmPezbnZcRg--0gH4tEo0-FCSuLbBCra7wNSZki3Qi8t5SwffPfMHOJOA0qPKHf57K0YvFKiJDEpZ-BDCyS5iwcEWVH9MM6Q-OcAnftyCdyOPMR3Y6T0dCCGbnfQL59iDHztn4n9-3BEPNq6hYS0T6eZHYSJ2TNtSyDn3cpQBUkOdNEvHzTL425B50PDYo9J-UsY98XDnE7kqBwbe3pZpTdlFKfMVVXTiONPrlyeQpXJix8lAWY0h-AXofTddTw-s0C1aiUa48sOeIvuCxgmIkGRBTMCZjsz1yqzQNQRkDPfTTzRbZpqNL-nFAOCQ4%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "24 days ago",
+                "indeedApply": false,
+                "jobKey": "53e26c1a8e48a1b0",
+                "jobTypes": [],
+                "location": "York, PA",
+                "salarySnippet": "$32.88 an hour",
+                "sponsored": false,
+                "title": "USW Material Control Specialist ($32.88/hr + $1.25 Shift Differential)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=53e26c1a8e48a1b0"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfr0QIInrNu8dtCoIh3DpdCAnZIViK5YrEdZ6hzaPMrXgt4TS32ZHnikPLMBNx5LMKFVUo0tB90Pj01RHZTvgTSVCvNdlBmCDpwekKU-AtpLlkvefwxyyFCmLA3ChNNgzcxi2ilWwp4_PxkcNTqgSLJiHPI-73ZH4W4NEl6BeDDywTHzumy5lJyHrGvsRuHV-6QXOFniS2lvyORyVYlDhnX3XvCzUZA-ph3vekLNpkavlWg-BZatgh5mJYD4Pa51_IF_grc2QUggzpBjqQx7JBgL8v7owBwcPAzB0-UbMEAxUWENbXtSnyd6_VfQNYcXOcDRh2VWh2DezNPvg87knY55mrgpKlHyAGw0ESKqHUgdwgfvg1aHtQYYUUtngfkk-cLcNsbmdVw0uEckwL0F5T9QhwO5NGTdtWlRqGYSGycZw%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "9 days ago",
+                "indeedApply": false,
+                "jobKey": "7b43315833a2c9d5",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Aiken, SC",
+                "salarySnippet": "$35,654 - $57,046 a year",
+                "sponsored": false,
+                "title": "Support Operator 1",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=7b43315833a2c9d5"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrflym65QUCy92LmvIDXNWDRBj94ZrJ1qH1axlaAEg9IG9-a_d6a4_BUZdvVmSzXizuNzmrC_emk9zU1JS7LsvP7o48Mv-cffPdMRhs5kUdVMYr0sJu1GuZVv_H_qgRSZ1CDbsS1D_yNBDQF6iki57WoRdT2OctqW3-G5zuxvdBwqIjOTVBNjSPRzPXfPxNRovf6MTWG4AT7vq9QG-oZMEBYcdZD1S49rTM6vthJVP0-LRiA97riIJ2-Rpy6t6CRnrlir8K8PxzGQ9s6lXraDzjtO7Ay1bMT_2UVIM0vmq-sajCkiNGKkdVG0Cp1YJZw7vTt7VC4j0DIpeXz0n1nVQxaJ07b_BuVN_KaOLDRqbCBNm7BCKbUQ_61iNoXjQPgAdIJsp4FUTZXMPJCE8N64mss9HIliWbnjPVZ5fHR_uF2RY%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "17 days ago",
+                "indeedApply": false,
+                "jobKey": "5d143f257ca1cf00",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Aiken, SC",
+                "salarySnippet": "$43,285 - $69,256 a year",
+                "sponsored": false,
+                "title": "CNC MACHINE OPERATOR II",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=5d143f257ca1cf00"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrflym65QUCy9285k1uFCkEb0thON-eu3b1BVT0KlvLHGFHur6Y7uCVW4ZyIGEHlSwNoBCimAdClhDbcYAm-l-ZAlzzMIxe9KlyGL_F3bz74NCDC5s1vcdoGJIyquJdzZRDQuxmaF9k1_SWJ79FMefLsemts1shhU1X6q1OYRRhcchDNogs9xpYy9M6h0gEbTJN_ig4wYQlV4MmJw1ONe8lGBd4bXXvylvtOVD3JSrtl0ei48NwvUO53cQ02hzs5zqZLuRvyow2NPEBtQaOcsEVbXxudxMMH5kZ-P_0yr5xx90_vtK20IMeQFuAhysEOX796vyB90zpR8QIaCqH_t_YZ1Bbz0dwzt-lSGUv3ZHcv__2kpYYGjKUSNF-RqKigtMaAZApfvNNua8JhmqvTl0XHIRXHYvtFAyS_eIM3y5UGfM%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "18 days ago",
+                "indeedApply": false,
+                "jobKey": "1828b6ae5cf301cd",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Greenlawn, NY",
+                "salarySnippet": "$45,649 - $73,038 a year",
+                "sponsored": false,
+                "title": "Production Operator 1st & 2nd shift available",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=1828b6ae5cf301cd"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0C1ihjj1FYx73_02yGTS96r3SNeUtc-9S9zmnK0ry7bjnQ6Jf2s4KR_yqcVOuTzBy4ZReZZouvr2HvvZIs5uV0LI_It0JE5c9Ls1QAlWb2Hk7fwoAyNXnTEyH65Ti5xFx8H2k_M5tqJnDIaJ-g6gKdeOkB2hhToxUCBk4VwnAwcffPYX1rCBB6p_zAWog6SFKX2jMXN5GNkog9LMsSLVd0xAv7UO2ghSYMl8OJyKCW64MVqVvyMM7rZDEjUGRbUSC1IXimtes16Em0yZPeMwde-zL3qtaeAcidQ43OKLkmSgMjiPdauG1lyav-o607tM_q7jm8FH4K2rdxHxlF5Ops8YDfj1njbXVY4LRKc2hmEoKaNUzaLC6vyLsTsfISbDXRAW-1Cl3nYIwNEkA-x9GZFI9aHkXdJw8C5qTSOxSO05q_avBoOVMvgJEBPv4l0VyYAqWP1M1FxJO3jq5SXTd8-_MkGATSUAH4fSK1D7egFmzV7Xjfn6pcf&camk=UoKtGZLa3XL6G1wT5t_1PA%3D%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "24 days ago",
+                "indeedApply": false,
+                "jobKey": "57d06b330c045033",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Okaloosa Island, FL",
+                "salarySnippet": "$29,093 - $46,550 a year",
+                "sponsored": true,
+                "title": "Production Operator (Electronics Assembly)",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=57d06b330c045033"
+            },
+            {
+                "clickUrl": "/pagead/clk?mo=r&ad=-6NYlbfkN0CMMQh_vh03lgJPJxo1psrfxH_G-Ie69D1s7Fyvc4RPmXC0UVMchT--dAceSllTG1tFJoHmCIF-dfT-cXDNj-FLaJUXAqQfbMS62Vn2hFkpfhtRgnOxC9Sm8lbCtLH5S46jdQ_mGdXNiICXRsjfIn3-U4iAIbtToi3CZWULZkOUO97p0lqoMt50EoaTJfNGw0Kup4IQ1rb9TqJ9-RWzSX6K64CvG4LUUeKRpSzZBX7m8tC2UaYmDZKsZP35jWBXqtCrYlcdGSeO38fkco32IlQtyZSMYRMoo7NwZa8rhjjA0uKKw0T1PksgW3AZAB5dTWRwQwrXGwJ7JDWwNLpnvXa0KLJnMImYs_zZQ6Ka1ZW3GxFToM4xJuiPgbOLgCZIL9dj2MSH7O6fITaIA6DVlGflj9SKZSXueYVX_uFazg6RMPEYkOKA4iYCDJKPKkpjXLc%3D&camk=rc7eyn_KGd8%3D&jsa=3828&tk=1josnkpl7gbkm801",
+                "formattedRelativeTime": "6 days ago",
+                "indeedApply": false,
+                "jobKey": "fcfdb9ca06fd5daf",
+                "jobTypes": [
+                    "Full-time"
+                ],
+                "location": "Nashua, NH",
+                "salarySnippet": "$47,614 - $76,181 a year",
+                "sponsored": false,
+                "title": "Mechanical Technician",
+                "urgentHire": false,
+                "url": "/cmp/BAE-Systems-USA/jobs?jk=fcfdb9ca06fd5daf"
+            }
+        ],
+        "moreLinkUrl": "/cmp/BAE-Systems-USA/jobs",
+        "totalJobCount": 1568,
+        "totalLocationJobCount": 1568
+    },
+    "locationsSectionViewModel": {
+        "locations": [
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/CA/San%20Diego",
+                "name": "San Diego, CA",
+                "reviewRating": 3.7540106773376465
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/VA/Norfolk",
+                "name": "Norfolk, VA",
+                "reviewRating": 3.7135136127471924
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/NH/Nashua",
+                "name": "Nashua, NH",
+                "reviewRating": 3.7752809524536133
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/TX/Sealy",
+                "name": "Sealy, TX",
+                "reviewRating": 4.072727203369141
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/VA/McLean",
+                "name": "McLean, VA",
+                "reviewRating": 3.725925922393799
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/PA/York",
+                "name": "York, PA",
+                "reviewRating": 3.6771652698516846
+            },
+            {
+                "href": "/cmp/BAE-Systems-USA/locations/FL/Jacksonville",
+                "name": "Jacksonville, FL",
+                "reviewRating": 3.5304348468780518
+            }
+        ]
+    },
+    "qnaSectionViewModel": {
+        "baseUrl": "/cmp/BAE-Systems-USA",
+        "categoryQuestions": [
+            {
+                "category": "Popular questions",
+                "questions": [
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-09-22T12:27Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fg6nikllsa1l800",
+                        "formattedCreationDateTime": "September 22, 2021",
+                        "questionText": {
+                            "text": "How often do you get a raise at BAE Systems USA?"
+                        },
+                        "questionUid": "1fg6nikllsa1l800",
+                        "questionUrl": "faq/how-often-do-you-get-a-raise-at-bae-systems-usa?quid=1fg6nikllsa1l800",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "Yearly"
+                            },
+                            "answerUid": "1jokl72t5i976804",
+                            "creationDate": "2026-05-15T01:50Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fg6nikllsa1l800&answerUid=1jokl72t5i976804",
+                            "formattedCreationDateTime": "May 14, 2026",
+                            "isDeletable": false,
+                            "jobTitle": "Operations Supervisor",
+                            "location": "York, PA",
+                            "official": false
+                        },
+                        "totalAnswerCount": 184
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2022-06-30T22:32Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1g6rbse1m2gko001",
+                        "formattedCreationDateTime": "June 30, 2022",
+                        "questionText": {
+                            "text": "What is the promotion process like at BAE Systems USA?"
+                        },
+                        "questionUid": "1g6rbse1m2gko001",
+                        "questionUrl": "faq/what-is-the-promotion-process-like-at-bae-systems-usa?quid=1g6rbse1m2gko001",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "There are no more promotions"
+                            },
+                            "answerUid": "1jo4m5u7h21mg001",
+                            "creationDate": "2026-05-08T20:59Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1g6rbse1m2gko001&answerUid=1jo4m5u7h21mg001",
+                            "formattedCreationDateTime": "May 8, 2026",
+                            "isDeletable": false,
+                            "jobTitle": "Administrative Assistant II",
+                            "location": "Jacksonville, FL",
+                            "official": false
+                        },
+                        "totalAnswerCount": 113
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2017-11-15T01:35Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1buul1k2p1fdp0rg",
+                        "formattedCreationDateTime": "November 14, 2017",
+                        "questionText": {
+                            "text": "How often do raises occur at BAE Systems USA?"
+                        },
+                        "questionUid": "1buul1k2p1fdp0rg",
+                        "questionUrl": "faq/how-often-do-raises-occur-at-bae-systems-usa?quid=1buul1k2p1fdp0rg",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "Once a year "
+                            },
+                            "answerUid": "1isc3hqtmg7df801",
+                            "creationDate": "2025-05-28T18:47Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1buul1k2p1fdp0rg&answerUid=1isc3hqtmg7df801",
+                            "formattedCreationDateTime": "May 28, 2025",
+                            "isDeletable": false,
+                            "jobTitle": "Mechanical Technician III",
+                            "location": "Hudson, NH",
+                            "official": false
+                        },
+                        "totalAnswerCount": 61
+                    }
+                ]
+            },
+            {
+                "category": "Hiring Process",
+                "questions": [
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2022-06-30T22:32Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1g6rbse1m2gko001",
+                        "formattedCreationDateTime": "June 30, 2022",
+                        "questionText": {
+                            "text": "What is the promotion process like at BAE Systems USA?"
+                        },
+                        "questionUid": "1g6rbse1m2gko001",
+                        "questionUrl": "faq/what-is-the-promotion-process-like-at-bae-systems-usa?quid=1g6rbse1m2gko001",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "There are no more promotions"
+                            },
+                            "answerUid": "1jo4m5u7h21mg001",
+                            "creationDate": "2026-05-08T20:59Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1g6rbse1m2gko001&answerUid=1jo4m5u7h21mg001",
+                            "formattedCreationDateTime": "May 8, 2026",
+                            "isDeletable": false,
+                            "jobTitle": "Administrative Assistant II",
+                            "location": "Jacksonville, FL",
+                            "official": false
+                        },
+                        "totalAnswerCount": 113
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-10-28T04:11Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fj2hhkrvu2hh800",
+                        "formattedCreationDateTime": "October 27, 2021",
+                        "questionText": {
+                            "text": "What qualifications do you need to work at BAE Systems USA?"
+                        },
+                        "questionUid": "1fj2hhkrvu2hh800",
+                        "questionUrl": "faq/what-qualifications-do-you-need-to-work-at-bae-systems-usa?quid=1fj2hhkrvu2hh800",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "In depth knowledge of design and drafting practices and application of GD&T, Creo and Windchill. "
+                            },
+                            "answerUid": "1g5esn0cgr20m800",
+                            "creationDate": "2022-06-13T16:00Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fj2hhkrvu2hh800&answerUid=1g5esn0cgr20m800",
+                            "formattedCreationDateTime": "June 13, 2022",
+                            "isDeletable": false,
+                            "jobTitle": "Team Lead/Drafting Checker",
+                            "location": "Sterling Heights, MI",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-08-27T11:48Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fe3n1l2l3od8000",
+                        "formattedCreationDateTime": "August 27, 2021",
+                        "questionText": {
+                            "text": "How long does it take to get an interview after you apply at BAE Systems USA?"
+                        },
+                        "questionUid": "1fe3n1l2l3od8000",
+                        "questionUrl": "faq/how-long-does-it-take-to-get-an-interview-after-you-apply-at-bae-systems-usa?quid=1fe3n1l2l3od8000",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "1 month"
+                            },
+                            "answerUid": "1g55n45mgq6ks801",
+                            "creationDate": "2022-06-10T02:29Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fe3n1l2l3od8000&answerUid=1g55n45mgq6ks801",
+                            "formattedCreationDateTime": "June 9, 2022",
+                            "isDeletable": false,
+                            "jobTitle": "Security Specialist II",
+                            "location": "Hill AFB, UT",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    }
+                ]
+            },
+            {
+                "category": "Interviews",
+                "questions": [
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-06-29T21:39Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1f9crcoim3oid000",
+                        "formattedCreationDateTime": "June 29, 2021",
+                        "questionText": {
+                            "text": "What tips or advice would you give to someone interviewing at BAE Systems USA?"
+                        },
+                        "questionUid": "1f9crcoim3oid000",
+                        "questionUrl": "faq/what-tips-or-advice-would-you-give-to-someone-interviewing-at-bae-systems-usa?quid=1f9crcoim3oid000",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "Know the job well before interviewing."
+                            },
+                            "answerUid": "1jhrmu5ddlvuq800",
+                            "creationDate": "2026-02-19T19:44Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1f9crcoim3oid000&answerUid=1jhrmu5ddlvuq800",
+                            "formattedCreationDateTime": "February 19, 2026",
+                            "isDeletable": false,
+                            "jobTitle": "Senior Reliability Engineer",
+                            "location": "York, PA",
+                            "official": false
+                        },
+                        "totalAnswerCount": 29
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-08-27T11:48Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fe3n1l2l3od8000",
+                        "formattedCreationDateTime": "August 27, 2021",
+                        "questionText": {
+                            "text": "How long does it take to get an interview after you apply at BAE Systems USA?"
+                        },
+                        "questionUid": "1fe3n1l2l3od8000",
+                        "questionUrl": "faq/how-long-does-it-take-to-get-an-interview-after-you-apply-at-bae-systems-usa?quid=1fe3n1l2l3od8000",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "1 month"
+                            },
+                            "answerUid": "1g55n45mgq6ks801",
+                            "creationDate": "2022-06-10T02:29Z",
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fe3n1l2l3od8000&answerUid=1g55n45mgq6ks801",
+                            "formattedCreationDateTime": "June 9, 2022",
+                            "isDeletable": false,
+                            "jobTitle": "Security Specialist II",
+                            "location": "Hill AFB, UT",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-08-09T10:46Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fcl8ajfat52g800",
+                        "formattedCreationDateTime": "August 9, 2021",
+                        "questionText": {
+                            "text": "How should I prepare for an interview at BAE Systems USA?"
+                        },
+                        "questionUid": "1fcl8ajfat52g800",
+                        "questionUrl": "faq/how-should-i-prepare-for-an-interview-at-bae-systems-usa?quid=1fcl8ajfat52g800",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "You have to know your stuff when going for an interview "
+                            },
+                            "answerUid": "1j81cgojtg6ro801",
+                            "creationDate": "2025-10-20T18:01Z",
+                            "currentlyEmployed": false,
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fcl8ajfat52g800&answerUid=1j81cgojtg6ro801",
+                            "formattedCreationDateTime": "October 20, 2025",
+                            "isDeletable": false,
+                            "jobTitle": "Painter/Blaster Helper",
+                            "location": "Alabama",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    }
+                ]
+            },
+            {
+                "category": "Working Hours",
+                "questions": [
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2021-08-16T18:38Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1fd843tjlhimt800",
+                        "formattedCreationDateTime": "August 16, 2021",
+                        "questionText": {
+                            "text": "How flexible are your working hours at BAE Systems USA?"
+                        },
+                        "questionUid": "1fd843tjlhimt800",
+                        "questionUrl": "faq/how-flexible-are-your-working-hours-at-bae-systems-usa?quid=1fd843tjlhimt800",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "Not flexible "
+                            },
+                            "answerUid": "1ilnj2418gioj801",
+                            "creationDate": "2025-03-07T06:00Z",
+                            "currentlyEmployed": false,
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1fd843tjlhimt800&answerUid=1ilnj2418gioj801",
+                            "formattedCreationDateTime": "March 7, 2025",
+                            "isDeletable": false,
+                            "jobTitle": "Production Worker",
+                            "location": "Radford, VA",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2019-08-29T04:06Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1djdortt45nea800",
+                        "formattedCreationDateTime": "August 28, 2019",
+                        "questionText": {
+                            "text": "On average, how many hours do you work a day at BAE Systems USA?"
+                        },
+                        "questionUid": "1djdortt45nea800",
+                        "questionUrl": "faq/on-average-how-many-hours-do-you-work-a-day-at-bae-systems-usa?quid=1djdortt45nea800",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "9/80 schedule alternating Fridays off"
+                            },
+                            "answerUid": "1i7kangksm91s801",
+                            "creationDate": "2024-09-12T23:57Z",
+                            "currentlyEmployed": true,
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1djdortt45nea800&answerUid=1i7kangksm91s801",
+                            "formattedCreationDateTime": "September 12, 2024",
+                            "isDeletable": false,
+                            "jobTitle": "Assembly Line Worker",
+                            "location": "Endicott, NY",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    },
+                    {
+                        "baseUrl": "/cmp/BAE-Systems-USA",
+                        "companyName": "BAE Systems USA",
+                        "creationDate": "2017-07-03T01:13Z",
+                        "dsaWebappQuestionUrl": "https://dsa-reporting-and-appeals.indeed.com/cq/?cmp=BAE%20Systems%20USA&questionUid=1bk304kjs5n8v8gh",
+                        "formattedCreationDateTime": "July 2, 2017",
+                        "questionText": {
+                            "text": "How are the working hours at BAE Systems USA?"
+                        },
+                        "questionUid": "1bk304kjs5n8v8gh",
+                        "questionUrl": "faq/how-are-the-working-hours-at-bae-systems-usa?quid=1bk304kjs5n8v8gh",
+                        "topAnswer": {
+                            "answerText": {
+                                "languageTag": "en",
+                                "text": "Hours worked are based on how much of your work you get done, but a minimum of 40 hours."
+                            },
+                            "answerUid": "1d21vcb9a5j59800",
+                            "creationDate": "2019-01-25T07:42Z",
+                            "currentlyEmployed": false,
+                            "dsaWebappAnswerUrl": "https://dsa-reporting-and-appeals.indeed.com/ca/?cmp=BAE%20Systems%20USA&questionUid=1bk304kjs5n8v8gh&answerUid=1d21vcb9a5j59800",
+                            "formattedCreationDateTime": "January 25, 2019",
+                            "isDeletable": false,
+                            "jobTitle": "Office Assistant",
+                            "location": "Pearl Harbor, HI",
+                            "official": false
+                        },
+                        "totalAnswerCount": 5
+                    }
+                ]
+            }
+        ],
+        "companyName": "BAE Systems USA",
+        "formattedQuestionCount": "68",
+        "questionCount": 68,
+        "topicFilter": {
+            "faqListUrl": "/cmp/BAE-Systems-USA/faq",
+            "topics": [
+                {
+                    "displayName": "Hiring Process",
+                    "id": "HIRED_STEPS",
+                    "seourl": "hiring-process"
+                },
+                {
+                    "displayName": "Interviews",
+                    "id": "INTERVIEW",
+                    "seourl": "interviews"
+                },
+                {
+                    "displayName": "Working Hours",
+                    "id": "WORK_HOURS",
+                    "seourl": "working-hours"
+                },
+                {
+                    "displayName": "Benefits",
+                    "id": "COMP_BENEFITS",
+                    "seourl": "benefits"
+                },
+                {
+                    "displayName": "Work from Home",
+                    "id": "WORK_FROM_HOME",
+                    "seourl": "work-from-home"
+                },
+                {
+                    "displayName": "Promotion",
+                    "id": "RAISE",
+                    "seourl": "promotion"
+                },
+                {
+                    "displayName": "Working Environment",
+                    "id": "WORK_ENV",
+                    "seourl": "working-environment"
+                },
+                {
+                    "displayName": "Dress Code",
+                    "id": "DRESS_CODE",
+                    "seourl": "dress-code"
+                },
+                {
+                    "displayName": "Working Culture",
+                    "id": "WORK_CULTURE",
+                    "seourl": "working-culture"
+                },
+                {
+                    "displayName": "CEO",
+                    "id": "CEO",
+                    "seourl": "ceo"
+                },
+                {
+                    "displayName": "Company Future",
+                    "id": "COMP_FUTURE",
+                    "seourl": "company-future"
+                },
+                {
+                    "displayName": "Drug Test",
+                    "id": "DRUG_TEST",
+                    "seourl": "drug-test"
+                },
+                {
+                    "displayName": "Job Opportunities",
+                    "id": "JOBS",
+                    "seourl": "job-opportunities"
+                },
+                {
+                    "displayName": "Salaries",
+                    "id": "SALARY",
+                    "seourl": "salary"
+                },
+                {
+                    "displayName": "Hiring Age",
+                    "id": "AGE",
+                    "seourl": "hiring-age"
+                }
+            ]
+        }
+    },
+    "requestContext": {
+        "country": "US",
+        "domain": "https://www.indeed.com",
+        "locale": "en-US",
+        "logUiTimings": true,
+        "logWebVitals": true,
+        "loggedIn": true,
+        "mobileUserAgent": false,
+        "paidStatus": "PREMIUM",
+        "rtl": false,
+        "tk": "1josnkpl7gbkm801",
+        "reactProctor": {
+            "tests": {
+                "acme_salaries_show_estimated_salary_tst": 1,
+                "acme_unverified_strings": 1,
+                "jsi_cmp_404_page_tst": -1,
+                "jsi_follow_button_tst": -1,
+                "jsi_industry_top_company_tst": -1,
+                "jsi_jobs_service_migration_tst": -1,
+                "jsi_short_funnel_redirect_tst": 1,
+                "jsi_show_login_gate_tst": 1,
+                "jsi_workwellbeing_tst": -1
+            }
+        },
+        "language": "en",
+        "ctk": "1jokocsb824sh000",
+        "url": "/cmp/BAE-Systems-USA",
+        "stagingLevel": "prod"
+    },
+    "reviewRatingOverallSectionViewModel": {
+        "overallRating": {
+            "ratings": [
+                {
+                    "rating": 3.4285714626312256,
+                    "year": 2026
+                },
+                {
+                    "rating": 3.313725471496582,
+                    "year": 2025
+                },
+                {
+                    "rating": 3.2750000953674316,
+                    "year": 2024
+                },
+                {
+                    "rating": 3.4387755393981934,
+                    "year": 2023
+                },
+                {
+                    "rating": 3.2735042572021484,
+                    "year": 2022
+                }
+            ],
+            "reviewNote": {
+                "totalReviews": "3.6K"
+            }
+        },
+        "reviewCategories": {
+            "compensationBenefits": 3.8,
+            "culture": 3.5,
+            "jobSecurityAdvancement": 3.2,
+            "management": 3.3,
+            "workLifeBalance": 3.7
+        }
+    },
+    "reviewsSectionViewModel": {
+        "reviews": [
+            {
+                "currentEmployee": false,
+                "dsaWebappReviewUrl": "https://dsa-reporting-and-appeals.indeed.com/cr/?cmp=BAE%20Systems%20USA&reviewId=1103747433",
+                "encryptedReviewId": "993c9d37daf9852d",
+                "jobTitle": "Sr. Cyber Analyst, Threat Intelligence",
+                "location": "Falls Church, VA",
+                "overallRating": 4,
+                "reviewUrl": "/cmp/BAE-Systems-USA/reviews/great-place-to-work-and-grow-in-the-dib?id=993c9d37daf9852d",
+                "submissionDate": "May 7, 2026",
+                "text": "A typical day depends on your role but is often dynamic with many moving parts both internally and externally, to include business reorganizations and geopolitical developments affecting supply chains and procurement.\n\nI learned a lot about the company's products and international presence. I also learned how quickly defense companies are affected by conflicts (e.g., the Russian invasion into Ukraine).\n\nManagement is sufficiently supportive.\n\nThe culture, like many other US DIB companies, mirrors military structure in a good way.\n\nThe hardest part of the job, like many other jobs, is learning the company inside and out. For a role like this, understanding the products and systems BAE Systems builds or supports is critical to understanding adversarial interest in those same products and systems.\n\nThe most enjoyable part of the job is seeing your work directly affect the strategic direction of the organization.",
+                "title": "Great place to work and grow in the DIB"
+            },
+            {
+                "currentEmployee": false,
+                "dsaWebappReviewUrl": "https://dsa-reporting-and-appeals.indeed.com/cr/?cmp=BAE%20Systems%20USA&reviewId=1103746062",
+                "encryptedReviewId": "db27e7a3165901f1",
+                "jobTitle": "Machinist",
+                "location": "",
+                "overallRating": 4,
+                "reviewUrl": "/cmp/BAE-Systems-USA/reviews/opportunity-to-learn-and-succeed?id=db27e7a3165901f1",
+                "submissionDate": "May 7, 2026",
+                "text": "Overall a good place to work. Great place to go early career to learn and advance. Probably wouldn’t stay long term due to lower than average pay for industry. Overall pretty good.",
+                "title": "Opportunity to learn and succeed "
+            },
+            {
+                "currentEmployee": false,
+                "dsaWebappReviewUrl": "https://dsa-reporting-and-appeals.indeed.com/cr/?cmp=BAE%20Systems%20USA&reviewId=1103593025",
+                "encryptedReviewId": "6400e0148ec2c8c2",
+                "jobTitle": "Machine Operator",
+                "location": "Radford, VA",
+                "overallRating": 3,
+                "reviewUrl": "/cmp/BAE-Systems-USA/reviews/the-worst-place-i-ever-worked-at?id=6400e0148ec2c8c2",
+                "submissionDate": "April 15, 2026",
+                "text": "What is the best part of working at the company?\nJust awful place with very few working right equipment \n\nWhat is the most stressful part about working at the company?\nThe disrespect from my upper management \n\nWhat is the work environment and culture like at the company?\nVery very toxic lots of drama \n\nWhat is a typical day like for you at the company?\nLong hard and exhausting most days",
+                "title": "The worst place I ever worked at "
+            },
+            {
+                "currentEmployee": false,
+                "dsaWebappReviewUrl": "https://dsa-reporting-and-appeals.indeed.com/cr/?cmp=BAE%20Systems%20USA&reviewId=1103592475",
+                "encryptedReviewId": "6c96e65446ff7c32",
+                "jobTitle": "BAE contractor",
+                "location": "",
+                "overallRating": 2,
+                "reviewUrl": "/cmp/BAE-Systems-USA/reviews/they-don-t-hire-within?id=6c96e65446ff7c32",
+                "submissionDate": "April 15, 2026",
+                "text": "If you love being used as a contractor, but never good enough to be made permanent. BAE is for you. You will be literally doing the job they are hiring for you and will not even look at you as option to fill position. They do not care about the contactors who make this company successful too. If you are good enough to be here long term you should be first considered as a fulltime employee to be bought on board!",
+                "title": "They don't hire within"
+            },
+            {
+                "currentEmployee": true,
+                "dsaWebappReviewUrl": "https://dsa-reporting-and-appeals.indeed.com/cr/?cmp=BAE%20Systems%20USA&reviewId=1103574309",
+                "encryptedReviewId": "57e83db616145a9c",
+                "jobTitle": "Quality Inspector",
+                "location": "Greenlawn, NY",
+                "overallRating": 5,
+                "reviewUrl": "/cmp/BAE-Systems-USA/reviews/the-best-place-to-work?id=57e83db616145a9c",
+                "submissionDate": "April 13, 2026",
+                "text": "I’ve had nothing but good experiences here. Pay is great. Biggest thing is work life balance is unmatched for a company they care for their employees. It’s very hard to come across places that understand we have a life outside of work and allow you to tend to those needs. This creates grateful employees who want to work harder and are Loyal to their jobs. ",
+                "title": "The best place to work"
+            }
+        ]
+    },
+    "salarySectionViewModel": {
+        "categories": [
+            {
+                "categoryTitle": "Popular Roles",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 301,
+                        "salary": "$154,829",
+                        "salaryType": "YEARLY",
+                        "title": "Principal Software Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 279,
+                        "salary": "$139,652",
+                        "salaryType": "YEARLY",
+                        "title": "System Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 189,
+                        "salary": "$181,629",
+                        "salaryType": "YEARLY",
+                        "title": "Senior Program Manager"
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Software Development",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 191,
+                        "salary": "$128,771",
+                        "salaryType": "YEARLY",
+                        "title": "Senior Software Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 136,
+                        "salary": "$129,101",
+                        "salaryType": "YEARLY",
+                        "title": "Software Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 50,
+                        "salary": "$185,327",
+                        "salaryType": "YEARLY",
+                        "title": "Engineering Program Manager"
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Management",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 67,
+                        "salary": "$164,569",
+                        "salaryType": "YEARLY",
+                        "title": "Contract Manager"
+                    },
+                    {
+                        "reportedSalaryCount": 42,
+                        "salary": "$103,937",
+                        "salaryType": "YEARLY",
+                        "title": "Senior Contract Administrator"
+                    },
+                    {
+                        "reportedSalaryCount": 46,
+                        "salary": "$117,013",
+                        "salaryType": "YEARLY",
+                        "title": "Contract Administrator"
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Industrial Engineering",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 109,
+                        "salary": "$95,612",
+                        "salaryType": "YEARLY",
+                        "title": "Manufacturing Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 85,
+                        "salary": "$116,086",
+                        "salaryType": "YEARLY",
+                        "title": "Test Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 73,
+                        "salary": "$96,385",
+                        "salaryType": "YEARLY",
+                        "title": "Quality Engineer"
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Production & Manufacturing",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 120,
+                        "salary": "$127,684",
+                        "salaryType": "YEARLY",
+                        "title": "Supplier Quality Engineer"
+                    },
+                    {
+                        "reportedSalaryCount": 79,
+                        "salary": "$51,489",
+                        "salaryType": "YEARLY",
+                        "title": "Senior Assembler"
+                    },
+                    {
+                        "reportedSalaryCount": 66,
+                        "salary": "$66,297",
+                        "salaryType": "YEARLY",
+                        "title": "Quality Assurance Inspector"
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Project Management",
+                "salaries": [
+                    {
+                        "reportedSalaryCount": 61,
+                        "salary": "$96,149",
+                        "salaryType": "YEARLY",
+                        "title": "Senior Program Analyst"
+                    },
+                    {
+                        "reportedSalaryCount": 67,
+                        "salary": "$105,946",
+                        "salaryType": "YEARLY",
+                        "title": "Program Analyst"
+                    },
+                    {
+                        "reportedSalaryCount": 39,
+                        "salary": "$130,726",
+                        "salaryType": "YEARLY",
+                        "title": "Project Manager"
+                    }
+                ]
+            }
+        ],
+        "count": "20.7K"
+    },
+    "sectionCount": 11,
+    "similarCompaniesSectionViewModel": {
+        "similarCompanyCards": [
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/1ec8605721e6e5873e4c865a5882df1d",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/1ec8605721e6e5873e4c865a5882df1d",
+                "companyName": "BAE Systems",
+                "companyUrl": "/cmp/BAE-Systems",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-BAE-Systems-c6f2f29ab960af6c-8fbcac1290de2ee4",
+                "employerKey": "8fbcac1290de2ee4",
+                "rating": 3.8,
+                "reviewCount": 1392,
+                "salaryCount": 173,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/9d37779ba08862de15d9853b90c89b0c",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/9d37779ba08862de15d9853b90c89b0c",
+                "companyName": "Raytheon",
+                "companyUrl": "/cmp/Raytheon",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Raytheon-c6f2f29ab960af6c-72a0dc9ca3bfaace",
+                "employerKey": "72a0dc9ca3bfaace",
+                "rating": 3.9,
+                "reviewCount": 5271,
+                "salaryCount": 6039,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/6a6c9f075b48a5898354e5f275c43a33",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/6a6c9f075b48a5898354e5f275c43a33",
+                "companyName": "L3Harris",
+                "companyUrl": "/cmp/L3harris",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-L3harris-c6f2f29ab960af6c-2dd9d24593bb99ad",
+                "employerKey": "2dd9d24593bb99ad",
+                "rating": 4.1,
+                "reviewCount": 5823,
+                "salaryCount": 25232,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/840ef038663bcfde1befff5745fded3e",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/840ef038663bcfde1befff5745fded3e",
+                "companyName": "Northrop Grumman",
+                "companyUrl": "/cmp/Northrop-Grumman",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Northrop-Grumman-c6f2f29ab960af6c-3e8562386cf03d35",
+                "employerKey": "3e8562386cf03d35",
+                "rating": 4,
+                "reviewCount": 7535,
+                "salaryCount": 45513,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/debbff68624041821d0c56fbccbcc330",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/debbff68624041821d0c56fbccbcc330",
+                "companyName": "Lockheed Martin",
+                "companyUrl": "/cmp/Lockheed-Martin",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Lockheed-Martin-c6f2f29ab960af6c-ce4d979bf9c3c5f3",
+                "employerKey": "ce4d979bf9c3c5f3",
+                "rating": 4,
+                "reviewCount": 9974,
+                "salaryCount": 11487,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/4da07d3429951cda5c65f3a22646f014",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/4da07d3429951cda5c65f3a22646f014",
+                "companyName": "Kratos Defense",
+                "companyUrl": "/cmp/Kratos-Defense",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Kratos-Defense-c6f2f29ab960af6c-08be48fd858cdc89",
+                "employerKey": "08be48fd858cdc89",
+                "rating": 3.3,
+                "reviewCount": 194,
+                "salaryCount": 1318,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/9d37779ba08862de15d9853b90c89b0c",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/9d37779ba08862de15d9853b90c89b0c",
+                "companyName": "Collins Aerospace",
+                "companyUrl": "/cmp/Collins-Aerospace",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Collins-Aerospace-c6f2f29ab960af6c-2344c86c57af3e29",
+                "employerKey": "2344c86c57af3e29",
+                "rating": 3.6,
+                "reviewCount": 3888,
+                "salaryCount": 2343,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/c590ac3883e74f3c091c0d8766999d54",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/c590ac3883e74f3c091c0d8766999d54",
+                "companyName": "Elbit Systems of America",
+                "companyUrl": "/cmp/Elbit-Systems-of-America",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Elbit-Systems-of-America-c6f2f29ab960af6c-ff7932fa1613a3f9",
+                "employerKey": "ff7932fa1613a3f9",
+                "rating": 3.5,
+                "reviewCount": 148,
+                "salaryCount": 13,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/5321fe621dc57431b04fd562548e0adc",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/5321fe621dc57431b04fd562548e0adc",
+                "companyName": "Booz Allen Hamilton",
+                "companyUrl": "/cmp/Booz-Allen-Hamilton",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Booz-Allen-Hamilton-c6f2f29ab960af6c-8cc5972d7a49513a",
+                "employerKey": "8cc5972d7a49513a",
+                "rating": 3.9,
+                "reviewCount": 2738,
+                "salaryCount": 19386,
+                "sectors": [
+                    "Information Technology Support Services"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/7107a0c385cc17a9acfb536805e806a8",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/7107a0c385cc17a9acfb536805e806a8",
+                "companyName": "BAE Systems Digital Intelligence",
+                "companyUrl": "/cmp/BAE-Systems-Digital-Intelligence-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-BAE-Systems-Digital-Intelligence-1-c6f2f29ab960af6c-dce65b9b3559ffe4",
+                "employerKey": "dce65b9b3559ffe4",
+                "rating": 3.7,
+                "reviewCount": 113,
+                "salaryCount": 0,
+                "sectors": [
+                    "Software Development"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_logo/16dc2044b3e5f367b0912e3f723bf906",
+                "companyName": "BAE Industries, Inc.",
+                "companyUrl": "/cmp/BAE-Industries,-Inc.-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-BAE-Industries,-Inc.-1-c6f2f29ab960af6c-d63e055735c1714b",
+                "employerKey": "d63e055735c1714b",
+                "rating": 3,
+                "reviewCount": 65,
+                "salaryCount": 59,
+                "sectors": [
+                    "Metal & Mineral Manufacturing"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/3a30643c950c655fd4cd68b8ea74ab58",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/3a30643c950c655fd4cd68b8ea74ab58",
+                "companyName": "Eastman Chemical",
+                "companyUrl": "/cmp/Eastman-Chemical",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Eastman-Chemical-c6f2f29ab960af6c-4d58eff9d11517bd",
+                "employerKey": "4d58eff9d11517bd",
+                "rating": 3.6,
+                "reviewCount": 652,
+                "salaryCount": 616,
+                "sectors": [
+                    "Manufacturing"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/184c48ba093416548f8384fb0bc9ee94",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/184c48ba093416548f8384fb0bc9ee94",
+                "companyName": "General Dynamics Mission Systems",
+                "companyUrl": "/cmp/General-Dynamics-Mission-Systems",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-General-Dynamics-Mission-Systems-c6f2f29ab960af6c-b73c137794484e31",
+                "employerKey": "b73c137794484e31",
+                "rating": 3.6,
+                "reviewCount": 589,
+                "salaryCount": 1008,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/1f2e0188bca33d5172379e765ba16720",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/1f2e0188bca33d5172379e765ba16720",
+                "companyName": "CACI International",
+                "companyUrl": "/cmp/CACI-International-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-CACI-International-1-c6f2f29ab960af6c-dfbb6982112a47b4",
+                "employerKey": "dfbb6982112a47b4",
+                "rating": 3.8,
+                "reviewCount": 2426,
+                "salaryCount": 1573,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/2bf3ff66968348a187effbf9d576817b",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/2bf3ff66968348a187effbf9d576817b",
+                "companyName": "Bell Textron Inc.",
+                "companyUrl": "/cmp/Bell-Textron-Inc.-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Bell-Textron-Inc.-1-c6f2f29ab960af6c-04a9631c8647fa0c",
+                "employerKey": "04a9631c8647fa0c",
+                "rating": 3.9,
+                "reviewCount": 807,
+                "salaryCount": 375,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/cf03fb8a4a8c43a754ac90fa3d5f9a35",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/cf03fb8a4a8c43a754ac90fa3d5f9a35",
+                "companyName": "Leidos",
+                "companyUrl": "/cmp/Leidos",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Leidos-c6f2f29ab960af6c-b22d7c64826ad037",
+                "employerKey": "b22d7c64826ad037",
+                "rating": 3.7,
+                "reviewCount": 1955,
+                "salaryCount": 4876,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/48613d2d5232034629d5703642289f7b",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/48613d2d5232034629d5703642289f7b",
+                "companyName": "GE Aerospace",
+                "companyUrl": "/cmp/GE-Aerospace-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-GE-Aerospace-1-c6f2f29ab960af6c-5c337e1f124278c0",
+                "employerKey": "5c337e1f124278c0",
+                "rating": 3.7,
+                "reviewCount": 1430,
+                "salaryCount": 1023,
+                "sectors": []
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/4a1459885edb267a0c3ac02ec9e7bc86",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/4a1459885edb267a0c3ac02ec9e7bc86",
+                "companyName": "General Dynamics Land Systems",
+                "companyUrl": "/cmp/General-Dynamics-Land-Systems",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-General-Dynamics-Land-Systems-c6f2f29ab960af6c-63f67ba9514a9745",
+                "employerKey": "63f67ba9514a9745",
+                "rating": 3.5,
+                "reviewCount": 358,
+                "salaryCount": 206,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/e77e20a377795f306cbcf11df9f52497",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/e77e20a377795f306cbcf11df9f52497",
+                "companyName": "Draper",
+                "companyUrl": "/cmp/Draper-1",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-Draper-1-c6f2f29ab960af6c-e50cc6c90bc7c169",
+                "employerKey": "e50cc6c90bc7c169",
+                "rating": 3.9,
+                "reviewCount": 112,
+                "salaryCount": 2980,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            },
+            {
+                "companyLogoUrl": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/64x64/672a36b5a9395c3f5b08c0982ab0af5f",
+                "companyLogoUrl2x": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/128x128/672a36b5a9395c3f5b08c0982ab0af5f",
+                "companyName": "General Atomics",
+                "companyUrl": "/cmp/General-Atomics",
+                "compareCompanyUrl": "/companies/compare/BAE-Systems-USA-vs-General-Atomics-c6f2f29ab960af6c-36a001805e66a0ab",
+                "employerKey": "36a001805e66a0ab",
+                "rating": 3.7,
+                "reviewCount": 813,
+                "salaryCount": 16313,
+                "sectors": [
+                    "Aerospace & Defense"
+                ]
+            }
+        ]
+    }
+}
