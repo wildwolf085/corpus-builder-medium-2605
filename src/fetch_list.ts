@@ -158,14 +158,20 @@ const main = async () => {
                         inserted++;
                     }
                 }
-
-                db.updateAuthorChecked(msg.url, found);
+                
+                db.updateAuthorChecked(msg.url, msg.newUrl, found);
 
                 processedCount++;
                 totalFound += found;
                 totalInserted += inserted;
                 lastUpdateTime = fmtTime();
-                fs.appendFileSync(logPath, `${formatTimestamp()}, ${msg.url}, ${found}, ${inserted}\n`);
+                fs.appendFileSync(logPath, `[${formatTimestamp()}] ${msg.url} | ${inserted} / ${found}\n`);
+                updateBar();
+            } else if (msg?.type === "error") {
+                const reason = msg.reason || msg.error || "unknown";
+                fs.appendFileSync(logPath, `[${formatTimestamp()}] ${msg.url || ""} | ${reason} error\n`);
+                processedCount++;
+                lastUpdateTime = fmtTime();
                 updateBar();
             }
             dispatch();

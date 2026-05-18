@@ -6,7 +6,7 @@ import path from "path";
 const wait = (mill: number) => new Promise(resolve => setTimeout(resolve, Math.max(mill, 1000)));
 
 // ─── App ──────────────────────────────────────────────────────────────────────
-const NUM_WORKERS = 4;
+const NUM_WORKERS = 10;
 
 interface WorkerState {
     process: ChildProcess;

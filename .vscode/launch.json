@@ -16,13 +16,13 @@
         "skipFiles": ["<node_internals>/**", "node_modules/**"]
       },
       {
-        "name": "crawl1",
+        "name": "show-browser",
         "type": "node",
         "request": "launch",
         "runtimeExecutable": "node",
         "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
   
-        "args": ["src/app1.ts", "--test"],
+        "args": ["src/show-browser.ts", "--test"],
         "console": "integratedTerminal", 
         "outputCapture": "std",
         "cwd": "${workspaceRoot}",

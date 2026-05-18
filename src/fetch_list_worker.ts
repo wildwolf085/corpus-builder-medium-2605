@@ -24,13 +24,57 @@ interface ExtractedArticle {
     title: string;
     url: string;
 }
+const getArticles = (page: Page) => page!.evaluate(() => {
+    const results: Array<{ title: string; url: string }> = [];
+    const seen = new Set<string>();
+
+    const isArticleLink = (href: string): boolean => {
+        if (!href) return false;
+        try {
+            const url = new URL(href, window.location.href);
+            const path = url.pathname;
+            return /-[0-9a-f]{12,}$/i.test(path) || /\/p\//i.test(path);
+        } catch {
+            return false;
+        }
+    };
+
+    for (const block of Array.from(document.querySelectorAll("article"))) {
+        const h2 = block.querySelector("h2");
+        if (!h2) continue;
+
+        const title = (h2.textContent || "").replace(/\s+/g, " ").trim();
+        if (!title) continue;
+
+        const anchors = Array.from(block.querySelectorAll('a[href]')) as HTMLAnchorElement[];
+        let link = h2.closest('a[href]') as HTMLAnchorElement | null;
+
+        if (!link) {
+            link = anchors.find(a => isArticleLink(a.getAttribute("href") || "")) || null;
+        }
+        if (!link) {
+            link = anchors.find(a => a.getAttribute("href")?.startsWith("/") || a.getAttribute("href")?.includes("medium.com")) || null;
+        }
+        if (!link) continue;
+
+        const href = link.getAttribute("href") || "";
+        const fullUrl = new URL(href, window.location.href).href;
+        const base = fullUrl.split("?")[0];
+
+        if (!seen.has(base)) {
+            seen.add(base);
+            results.push({ title, url: fullUrl });
+        }
+    }
+    return results;
+});
 
 const extractArticlesFromPage = async (checked: number): Promise<ExtractedArticle[]> => {
     // ── Phase 1: scroll until page is fully loaded ────────────────────────────
     const scrollCount = checked === 0 ? 50 : 5;
     let stagnantScrolls = 0;
     const maxStagnantScrolls = 6;
-
+    let articles = [] as any[]
     for (let i = 0; i < scrollCount; i++) {
         const prevHeight = await page!.evaluate(() => document.documentElement.scrollHeight);
         const prevArticles = await page!.evaluate(() => document.querySelectorAll("article").length);
@@ -53,11 +97,15 @@ const extractArticlesFromPage = async (checked: number): Promise<ExtractedArticl
             return false;
         });
         if (clicked) await wait(3000);
-
+        let bodyText = await page!.evaluate(() => document.body?.innerText || "");
+        if (bodyText && /apologies/i.test(bodyText)) {
+            break
+        }
+        articles = await getArticles(page!);
         const newHeight = await page!.evaluate(() => document.documentElement.scrollHeight);
-        const newArticles = await page!.evaluate(() => document.querySelectorAll("article").length);
+        
 
-        if (newHeight === prevHeight && newArticles === prevArticles) {
+        if (newHeight === prevHeight && articles.length === prevArticles) {
             stagnantScrolls++;
             if (stagnantScrolls >= maxStagnantScrolls) break;
         } else {
@@ -66,50 +114,7 @@ const extractArticlesFromPage = async (checked: number): Promise<ExtractedArticl
     }
 
     // ── Phase 2: extract everything in one shot ──────────────────────────────
-    const articles = await page!.evaluate(() => {
-        const results: Array<{ title: string; url: string }> = [];
-        const seen = new Set<string>();
-
-        const isArticleLink = (href: string): boolean => {
-            if (!href) return false;
-            try {
-                const url = new URL(href, window.location.href);
-                const path = url.pathname;
-                return /-[0-9a-f]{12,}$/i.test(path) || /\/p\//i.test(path);
-            } catch {
-                return false;
-            }
-        };
-
-        for (const block of Array.from(document.querySelectorAll("article"))) {
-            const h2 = block.querySelector("h2");
-            if (!h2) continue;
-
-            const title = (h2.textContent || "").replace(/\s+/g, " ").trim();
-            if (!title) continue;
-
-            const anchors = Array.from(block.querySelectorAll('a[href]')) as HTMLAnchorElement[];
-            let link = h2.closest('a[href]') as HTMLAnchorElement | null;
-
-            if (!link) {
-                link = anchors.find(a => isArticleLink(a.getAttribute("href") || "")) || null;
-            }
-            if (!link) {
-                link = anchors.find(a => a.getAttribute("href")?.startsWith("/") || a.getAttribute("href")?.includes("medium.com")) || null;
-            }
-            if (!link) continue;
-
-            const href = link.getAttribute("href") || "";
-            const fullUrl = new URL(href, window.location.href).href;
-            const base = fullUrl.split("?")[0];
-
-            if (!seen.has(base)) {
-                seen.add(base);
-                results.push({ title, url: fullUrl });
-            }
-        }
-        return results;
-    });
+    
 
     const extracted: ExtractedArticle[] = [];
     const seenUrls = new Set<string>();
@@ -128,7 +133,7 @@ const extractArticlesFromPage = async (checked: number): Promise<ExtractedArticl
 const initPuppeteer = async (profileDir: string) => {
     browser = await puppeteer.launch({
         protocolTimeout: 360000000,
-        headless: "shell",
+        headless: false, //"shell",
         args: [
             '--start-maximized',
             "--disable-features=site-per-process",
@@ -187,8 +192,21 @@ process.on("message", async (message: any) => {
 
             try {
                 await page.goto(authorUrl, { waitUntil: "networkidle2" });
+                let currentUrl = page.url();
+                if (currentUrl.endsWith('/')) currentUrl = currentUrl.slice(0, -1);
+                const p = currentUrl.indexOf('?')
+                if (p!==-1) currentUrl = currentUrl.slice(0, p - 1);
+
+                if (currentUrl.includes("medium.com/404") || currentUrl.includes("medium.com/500")) {
+                    process.send!({ type: "error", url: authorUrl, reason: "Page not found" });
+                    return;
+                }
+                if (currentUrl!==authorUrl) {
+                    await page.goto(currentUrl, { waitUntil: "networkidle2" });
+                }
+
                 const articles = await extractArticlesFromPage(checked);
-                process.send!({ type: "result", url: authorUrl, articles });
+                process.send!({ type: "result", url: authorUrl, newUrl: currentUrl, articles });
             } catch (err) {
                 // console.error(`Error processing author ${authorUrl}:`, err);
                 process.send!({ type: "error", url: authorUrl, reason: String(err) });

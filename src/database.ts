@@ -102,10 +102,6 @@ export class DatabaseManager {
         this.updateHtmlStmt.run(html, html.length, id);
     }
 
-    markArticleEmpty(id: number): void {
-        this.updateHtmlStmt.run("", 0, id);
-    }
-
     insertImages(imageUrls: string[]): void {
         if (imageUrls.length === 0) return;
         const md5 = (text: string) => crypto.createHash("md5").update(text).digest("hex");
@@ -129,8 +125,19 @@ export class DatabaseManager {
         this.insertArticleStmt.run(id, title, url);
     }
 
-    updateAuthorChecked(url: string, count: number): void {
-        this.updateAuthorCheckedStmt.run(count, url);
+    updateAuthorChecked(url: string, newUrl: string, count: number): void {
+        if (newUrl!==url) {
+            try {
+                const updateUrlStmt = this.db.prepare(`UPDATE authors SET url = ?, count=?, checked = CAST(strftime('%s', 'now') AS INTEGER) WHERE url = ?`) as unknown as DbStmt;
+                updateUrlStmt.run(newUrl, count, url);    
+            } catch (error) {
+                
+            }
+            
+        } else {
+            this.updateAuthorCheckedStmt.run(count, url);
+        }
+        
     }
 
     insertAuthors(authors: Array<{ url: string; topic: string }>): { inserted: number } {
